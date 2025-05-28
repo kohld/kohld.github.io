@@ -1,4 +1,3 @@
-
 version: 2
 updates:
   - package-ecosystem: 'npm'
@@ -6,3 +5,7 @@ updates:
     schedule:
       interval: 'weekly'
       day: 'monday'
+    reviewers:
+      - "kohld"
+    assignees:
+      - "kohld"
