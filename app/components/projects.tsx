@@ -24,19 +24,19 @@ export default function Projects() {
     },
     {
       title: "Contorion",
-      technologies: ["Symfony", "Pimcore", "RabbitMQ"],
+      technologies: ["Symfony", "Pimcore", "Doctrine", "RabbitMQ"],
       description: "Contribution to warehouse management and calculation processes.",
       link: "https://www.contorion.de/"
     },
     {
       title: "DB Connect",
-      technologies: ["Symfony", "Pimcore", "Twig", "Vue", "REST API", "PACT"],
+      technologies: ["Symfony", "Pimcore", "Doctrine", "Twig", "Vue", "REST API", "PACT"],
       description: "Developed a PIM/DAM platform, integrating a complex communication chain with numerous third-party providers via REST and PACT protocols. This involved building a central system for product and digital asset management, ensuring seamless data exchange and robust integration with external partners.",
       link: "https://www.deutschebahnconnect.com/"
     },
     {
       title: "Fleurop",
-      technologies: ["Symfony", "Pimcore", "RabbitMQ"],
+      technologies: ["Symfony", "Pimcore", "Doctrine", "RabbitMQ"],
       description: "The development of both B2B and warehouse management platforms focuses on creating highly scalable, secure, and integrated systems that streamline business processes, improve operational efficiency, and enhance overall supply chain visibility for enterprises.",
       link: "https://www.fleurop.de/"
     },
@@ -48,15 +48,21 @@ export default function Projects() {
     },
     {
       title: "ZDFtivi",
-      technologies: ["Symfony", "REST API"],
+      technologies: ["Symfony", "Doctrine", "REST API"],
       description: "Contributed to the critical ASAP delivery of a REST API and data structure for the relaunch of all ZDF products, enabling their deployment on a new platform.",
       link: "https://www.zdf.de/kinder"
     },
     {
       title: "BGHM",
-      technologies: ["Symfony", "Sonata CMS", "Twig"],
+      technologies: ["Symfony", "Sonata CMS", "Doctrine", "Twig"],
       description: "Contribution to the creation of a custom CMS system.",
       link: "https://www.bghm.de/"
+    },
+    {
+      title: "Krombacher Brauerei GmbH & Co. KG",
+      technologies: ["Symfony", "Pimcore", "Doctrine", "Twig", "REST API"],
+      description: "Contribution to the creation of a PIM/DAM system.",
+      link: "https://www.krombacher.de/"
     }
   ]
 
