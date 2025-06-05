@@ -73,13 +73,19 @@ export default function Header() {
                 onClick={() => scrollToSection("about")}
                 className="text-left text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
               >
-                Über mich
+                About
               </button>
               <button
                 onClick={() => scrollToSection("projects")}
                 className="text-left text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
               >
-                Projekte
+                Projects
+              </button>
+              <button
+                onClick={() => scrollToSection("contact")}
+                className="text-left text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
+              >
+                Contact
               </button>
             </div>
           </nav>
