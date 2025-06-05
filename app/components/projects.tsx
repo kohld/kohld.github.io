@@ -5,19 +5,19 @@ import { useState } from "react";
 export default function Projects() {
   const projects = [
     {
-      title: "WhoFinance",
+      title: "WhoFinance GmbH",
       technologies: ["Symfony", "Doctrine", "Twig", "Smarty"],
       description: "Involved in platform development for statistical applications, creating systems for data handling and analysis. Also, focused on process development for statistics, optimizing workflows for data collection, analysis, and dissemination.",
       link: "https://www.whofinance.de/"
     },
     {
-      title: "Freenet TV",
+      title: "freenet TV (MEDIA BROADCAST GmbH)",
       technologies: ["Symfony", "Doctrine", "Twig"],
       description: "A platform was created for the product launch, alongside the successful integration of mobilcom debitel. This involved establishing the necessary infrastructure for introducing the product to the market and ensuring seamless operation with mobilcom debitel's systems.",
       link: "https://www.freenet.tv/"
     },
     {
-      title: "DB Globe | Deutsche Bahn Globe",
+      title: "Deutsche Bahn Globe",
       technologies: ["Symfony", "Doctrine", "Twig"],
       description: "Development of an internal tool for managing international employees assigned to various subcontractors. This involved creating a system to oversee staff working abroad and their allocation to different sub-companies.",
       link: ""
@@ -35,13 +35,13 @@ export default function Projects() {
       link: "https://www.deutschebahnconnect.com/"
     },
     {
-      title: "Fleurop",
+      title: "Fleurop AG",
       technologies: ["Symfony", "Pimcore", "Doctrine", "RabbitMQ"],
       description: "The development of both B2B and warehouse management platforms focuses on creating highly scalable, secure, and integrated systems that streamline business processes, improve operational efficiency, and enhance overall supply chain visibility for enterprises.",
       link: "https://www.fleurop.de/"
     },
     {
-      title: "NFON",
+      title: "NFON AG",
       technologies: ["Yii 2", "REST API"],
       description: "Provided a REST API, complete with data models, and introduced new quality control measures. This involved setting up the technical interface and data structures, alongside implementing improved quality assurance for the system.",
       link: "https://www.nfon.com/"
