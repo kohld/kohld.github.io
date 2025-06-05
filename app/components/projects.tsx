@@ -71,43 +71,51 @@ export default function Projects() {
   const visibleProjects = showAll ? sortedProjects : sortedProjects.slice(0, 4);
 
   return (
-    <section id="projects" className="py-20 px-4 sm:px-6 lg:px-8">
+    <section id="projects" role="region" aria-labelledby="projects-heading" className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Completed & Contributed Projects</h2>
+          <h2 id="projects-heading" className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Completed & Contributed Projects</h2>
           <p className="text-lg text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
             Here are some of my completed and contributed projects, showcasing a variety of technologies and solution approaches.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8" id="projects-list" tabIndex={0}>
           {visibleProjects.map((project, index) => (
-            <div key={index} className="bg-white dark:bg-gray-900 rounded-lg shadow-sm hover:shadow-md overflow-hidden border border-gray-200 dark:border-gray-700">
-              <div className="p-6">
-                <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">{project.title}</h3>
+            <article
+              key={project.title}
+              className="bg-white dark:bg-gray-900 rounded-lg shadow-sm hover:shadow-md overflow-hidden border border-gray-200 dark:border-gray-700 flex flex-col justify-between"
+              aria-labelledby={`project-title-${index}`}
+            >
+              <div className="p-6 flex flex-col h-full">
+                <h3 id={`project-title-${index}`} className="text-xl font-semibold text-gray-900 dark:text-white mb-2">{project.title}</h3>
                 <p className="text-gray-600 dark:text-gray-400 mb-4">{project.description}</p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.technologies.map((tech, techIndex) => (
                     <span
                       key={techIndex}
                       className="px-3 py-1 bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-300 text-sm rounded-full"
+                      aria-label={tech}
                     >
                       {tech}
                     </span>
                   ))}
                 </div>
-                {project.link && project.link !== "#" && (
-                  <a
-                    href={project.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-block mt-2 px-5 py-2 bg-gray-900 hover:bg-gray-800 dark:bg-gray-700 dark:hover:bg-gray-600 text-white rounded-lg font-medium text-sm transition-colors"
-                  >
-                    Show Project
-                  </a>
-                )}
+                <div className="mt-auto self-start">
+                  {project.link && project.link !== "#" && (
+                    <a
+                      href={project.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-block mt-2 px-5 py-2 bg-gray-900 hover:bg-gray-800 dark:bg-gray-700 dark:hover:bg-gray-600 text-white rounded-lg font-medium text-sm transition-colors"
+                      aria-label={`Show project: ${project.title}`}
+                    >
+                      Show Project
+                    </a>
+                  )}
+                </div>
               </div>
-            </div>
+            </article>
           ))}
         </div>
         {projects.length > 4 && (
@@ -115,6 +123,9 @@ export default function Projects() {
             <button
               onClick={() => setShowAll(!showAll)}
               className="px-6 py-2 bg-gray-200 dark:bg-gray-800 text-gray-900 dark:text-white rounded-lg font-medium hover:bg-gray-300 dark:hover:bg-gray-700 transition-colors"
+              aria-expanded={showAll}
+              aria-controls="projects-list"
+              aria-label={showAll ? "Collapse project list" : "Expand project list"}
             >
               {showAll ? "Show Less" : "Show All Projects"}
             </button>
