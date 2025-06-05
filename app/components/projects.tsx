@@ -29,7 +29,7 @@ export default function Projects() {
       link: "https://www.contorion.de/"
     },
     {
-      title: "DB Connect",
+      title: "Deutsche Bahn Connect GmbH",
       technologies: ["Symfony", "Pimcore", "Doctrine", "Twig", "Vue", "REST API", "PACT"],
       description: "Developed a PIM/DAM platform, integrating a complex communication chain with numerous third-party providers via REST and PACT protocols. This involved building a central system for product and digital asset management, ensuring seamless data exchange and robust integration with external partners.",
       link: "https://www.deutschebahnconnect.com/"
