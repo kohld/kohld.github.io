@@ -10,7 +10,7 @@ export default function Contact() {
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-6 flex-wrap">
           <a
-            href="mailto:contact@denneskohl.com"
+            href="mailto:dennes.kohl@gmail.com"
             className="flex items-center gap-3 px-6 py-4 bg-white/5 border border-white/10 rounded-xl text-white backdrop-blur-sm transition-all duration-300 hover:bg-[#007AFF]/10 hover:border-[#007AFF]/30 hover:-translate-y-2 group"
           >
             <div className="w-9 h-9 bg-[#007AFF]/20 border border-[#007AFF]/30 rounded-full flex items-center justify-center transition-transform duration-500 group-hover:rotate-[360deg] group-hover:scale-110">
