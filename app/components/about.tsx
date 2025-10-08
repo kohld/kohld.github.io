@@ -25,7 +25,7 @@ export default function About() {
     <section id="about" className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
+          <h2 className="text-3xl sm:text-4xl font-bold mb-6 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
             About Me
           </h2>
           <p className="text-lg text-gray-400 max-w-3xl mx-auto leading-relaxed">
@@ -40,7 +40,7 @@ export default function About() {
           </p>
         </div>
 
-        <h2 className="text-3xl sm:text-4xl font-bold text-white text-center mb-12">
+        <h2 className="text-3xl sm:text-4xl font-bold text-center mb-12 bg-gradient-to-r from-gray-300 to-white bg-clip-text text-transparent">
           Skills
         </h2>
 

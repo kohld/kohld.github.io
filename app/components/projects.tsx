@@ -113,7 +113,7 @@ export default function Projects() {
     <section id="projects" className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
+          <h2 className="text-3xl sm:text-4xl font-bold mb-4 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
             Completed & Contributed Projects
           </h2>
           <p className="text-lg text-gray-400 max-w-3xl mx-auto">

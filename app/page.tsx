@@ -4,6 +4,7 @@ import About from './components/about';
 import Projects from './components/projects';
 import Contact from './components/contact';
 import Footer from './components/footer';
+import SectionDivider from './components/section-divider';
 
 export default function Home() {
   return (
@@ -30,8 +31,11 @@ export default function Home() {
         {/* Content */}
         <div className="relative z-10">
           <Hero />
+          <SectionDivider />
           <About />
+          <SectionDivider />
           <Projects />
+          <SectionDivider />
           <Contact />
         </div>
       </main>

@@ -52,7 +52,7 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 container mx-auto max-w-4xl text-center">
-        <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-6">
+        <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-to-r from-white via-gray-100 to-gray-300 bg-clip-text text-transparent">
           Hi, I&apos;m Dennes Kohl
         </h1>
         <p className="text-xl sm:text-2xl text-gray-400 mb-10 max-w-3xl mx-auto leading-relaxed font-light">

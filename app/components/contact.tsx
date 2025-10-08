@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="container mx-auto max-w-3xl text-center">
-        <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
+        <h2 className="text-3xl sm:text-4xl font-bold mb-6 bg-gradient-to-r from-gray-300 to-white bg-clip-text text-transparent">
           Contact
         </h2>
         <p className="text-xl text-gray-400 mb-12 font-light px-4">
