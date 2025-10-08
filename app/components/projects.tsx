@@ -124,7 +124,11 @@ export default function Projects() {
 
         {/* Filter Buttons */}
         <div className="mb-12">
-          <div className="flex flex-wrap justify-center gap-3">
+          <div
+            className="flex flex-wrap justify-center gap-3"
+            role="group"
+            aria-label="Filter projects by technology"
+          >
             {allTechnologies.map((tech) => (
               <button
                 key={tech}
@@ -193,6 +197,7 @@ export default function Projects() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block px-6 py-2.5 bg-[#007AFF]/10 text-[#007AFF] border border-[#007AFF]/30 rounded-full text-sm font-medium backdrop-blur-sm transition-all duration-300 hover:bg-[#007AFF]/20 hover:border-[#007AFF]/50 hover:-translate-y-1"
+                  aria-label={`Visit ${project.title} website (opens in new tab)`}
                 >
                   Show Project
                 </a>
@@ -206,6 +211,7 @@ export default function Projects() {
             <button
               onClick={() => setShowAll(!showAll)}
               className="px-8 py-3 bg-white/10 text-white border border-white/20 rounded-full font-semibold backdrop-blur-sm transition-all duration-300 hover:bg-white/20 hover:-translate-y-1"
+              aria-label={showAll ? 'Show fewer projects' : 'Show all projects'}
             >
               {showAll ? 'Show Less' : 'Show All Projects'}
             </button>
@@ -222,6 +228,7 @@ export default function Projects() {
             <button
               onClick={() => setSelectedFilter('All')}
               className="mt-4 px-6 py-2 bg-[#007AFF]/10 text-[#007AFF] border border-[#007AFF]/30 rounded-full text-sm font-medium transition-all duration-300 hover:bg-[#007AFF]/20"
+              aria-label="Clear technology filter and show all projects"
             >
               Clear Filter
             </button>

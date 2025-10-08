@@ -1,6 +1,6 @@
 export default function SectionDivider() {
   return (
-    <div className="relative py-8 px-4 sm:px-6 lg:px-8">
+    <div className="relative py-8 px-4 sm:px-6 lg:px-8" aria-hidden="true">
       <div className="container mx-auto max-w-6xl">
         {/* Main gradient line */}
         <div className="relative h-px bg-gradient-to-r from-transparent via-white/20 to-transparent">

@@ -48,6 +48,7 @@ export default function Hero() {
       <div
         id="particles-container"
         className="absolute inset-0 z-0 overflow-hidden pointer-events-none"
+        aria-hidden="true"
       ></div>
 
       {/* Content */}
@@ -63,12 +64,14 @@ export default function Hero() {
           <button
             onClick={() => scrollToSection('contact')}
             className="px-8 py-4 bg-gradient-to-br from-[#007AFF] to-[#0051D5] text-white rounded-full font-semibold transition-all duration-300 hover:-translate-y-1 shadow-lg hover:shadow-xl"
+            aria-label="Navigate to contact section"
           >
             Get In Touch
           </button>
           <button
             onClick={() => scrollToSection('projects')}
             className="px-8 py-4 bg-white/10 text-white border border-white/20 rounded-full font-semibold backdrop-blur-sm transition-all duration-300 hover:bg-white/20 hover:-translate-y-1"
+            aria-label="Navigate to projects section"
           >
             View Projects
           </button>
