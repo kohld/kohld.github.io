@@ -13,6 +13,7 @@ A modern, accessible portfolio website built with Next.js, featuring a professio
 - [Technologies Used](#technologies-used)
 - [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
+  - [Code Formatting](#code-formatting)
 - [License](#license)
 
 ---
