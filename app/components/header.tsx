@@ -1,17 +1,17 @@
-"use client"
+'use client';
 
-import { useState } from "react"
+import { useState } from 'react';
 
 export default function Header() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const scrollToSection = (sectionId: string) => {
-    const element = document.getElementById(sectionId)
+    const element = document.getElementById(sectionId);
     if (element) {
-      element.scrollIntoView({ behavior: "smooth" })
+      element.scrollIntoView({ behavior: 'smooth' });
     }
-    setIsMenuOpen(false)
-  }
+    setIsMenuOpen(false);
+  };
 
   return (
     <header className="fixed top-0 w-full bg-black/80 backdrop-blur-xl z-50 border-b border-white/10">
@@ -20,25 +20,25 @@ export default function Header() {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
             <button
-              onClick={() => scrollToSection("hero")}
+              onClick={() => scrollToSection('hero')}
               className="text-white/80 hover:text-[#007AFF] transition-all duration-300 font-medium"
             >
               Home
             </button>
             <button
-              onClick={() => scrollToSection("about")}
+              onClick={() => scrollToSection('about')}
               className="text-white/80 hover:text-[#007AFF] transition-all duration-300 font-medium"
             >
               About
             </button>
             <button
-              onClick={() => scrollToSection("projects")}
+              onClick={() => scrollToSection('projects')}
               className="text-white/80 hover:text-[#007AFF] transition-all duration-300 font-medium"
             >
               Projects
             </button>
             <button
-              onClick={() => scrollToSection("contact")}
+              onClick={() => scrollToSection('contact')}
               className="text-white/80 hover:text-[#007AFF] transition-all duration-300 font-medium"
             >
               Contact
@@ -50,7 +50,7 @@ export default function Header() {
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             className="md:hidden text-white text-2xl"
           >
-            {isMenuOpen ? "✕" : "☰"}
+            {isMenuOpen ? '✕' : '☰'}
           </button>
         </div>
 
@@ -59,25 +59,25 @@ export default function Header() {
           <nav className="md:hidden py-4 border-t border-white/10">
             <div className="flex flex-col space-y-4">
               <button
-                onClick={() => scrollToSection("hero")}
+                onClick={() => scrollToSection('hero')}
                 className="text-left text-white/80 hover:text-[#007AFF] transition-all duration-300"
               >
                 Home
               </button>
               <button
-                onClick={() => scrollToSection("about")}
+                onClick={() => scrollToSection('about')}
                 className="text-left text-white/80 hover:text-[#007AFF] transition-all duration-300"
               >
                 About
               </button>
               <button
-                onClick={() => scrollToSection("projects")}
+                onClick={() => scrollToSection('projects')}
                 className="text-left text-white/80 hover:text-[#007AFF] transition-all duration-300"
               >
                 Projects
               </button>
               <button
-                onClick={() => scrollToSection("contact")}
+                onClick={() => scrollToSection('contact')}
                 className="text-left text-white/80 hover:text-[#007AFF] transition-all duration-300"
               >
                 Contact
@@ -87,5 +87,5 @@ export default function Header() {
         )}
       </div>
     </header>
-  )
+  );
 }
