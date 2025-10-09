@@ -2,7 +2,7 @@
 
 [![Deployment](https://github.com/kohld/kohld.github.io/actions/workflows/deploy.yml/badge.svg?branch=main)](https://github.com/kohld/kohld.github.io/actions/workflows/deploy.yml)
 
-**[Live-Website](https://kohld.github.io)**
+<strong><a href="https://kohld.github.io" target="_blank" rel="noopener noreferrer" aria-label="View the live portfolio website (opens in a new tab)">Live-Website</a></strong>
 
 A modern, accessible portfolio website built with Next.js, featuring a professional project showcase, responsive design, and optimized user experience.
 
