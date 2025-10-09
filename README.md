@@ -138,6 +138,7 @@ graph TD
 <summary>Accessible Project Structure Description</summary>
 
 The project is structured as follows:
+
 - The `app/` directory forms the core of the Next.js application, containing:
   - `layout.tsx`: The main layout component.
   - `page.tsx`: The main page content, which imports all other components.
