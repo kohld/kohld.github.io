@@ -13,9 +13,11 @@ A modern, accessible portfolio website built with Next.js, featuring a professio
 - [Features](#features)
 - [Accessibility](#accessibility)
 - [Technologies Used](#technologies-used)
-- [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
   - [Code Formatting](#code-formatting)
+- [Deployment](#deployment)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
 - [License](#license)
 
 ---
@@ -41,6 +43,52 @@ A modern, accessible portfolio website built with Next.js, featuring a professio
 - [React](https://react.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [TypeScript](https://www.typescriptlang.org/)
+
+## Getting Started
+
+To run this project locally:
+
+1. **Clone the repository**
+
+   ```sh
+   git clone https://github.com/kohld/kohld.github.io.git
+
+   cd kohld.github.io
+   ```
+
+2. **Install dependencies**
+   ```sh
+   npm install
+   ```
+3. **Start the development server**
+   ```sh
+   npm run dev
+   ```
+4. **Open your browser** and visit [http://localhost:3000](http://localhost:3000)
+
+### Code Formatting
+
+This project uses [Prettier](https://prettier.io/) for code formatting. To format all files:
+
+```sh
+npm run format
+```
+
+> **Note:** Prettier is configured to run manually. Remember to format your code before committing changes to maintain consistent code style across the project.
+
+---
+
+## Deployment
+
+This project is automatically deployed to GitHub Pages whenever a commit is pushed to the `main` branch.
+
+The deployment process is handled by a GitHub Actions workflow defined in `.github/workflows/deploy.yml`. The workflow performs the following steps:
+
+1.  **Build:** It builds the Next.js application into a static site.
+2.  **Export:** It exports the static files to the `out` directory.
+3.  **Deploy:** It deploys the contents of the `out` directory to the `gh-pages` branch, which is then served as the live site.
+
+---
 
 ## Project Structure
 
@@ -102,37 +150,11 @@ The project is structured as follows:
 
 ---
 
-## Getting Started
+## Contributing
 
-To run this project locally:
+Contributions, issues, and feature requests are welcome. While this is a personal project, I'm open to feedback and suggestions for improvement.
 
-1. **Clone the repository**
-
-   ```sh
-   git clone https://github.com/kohld/kohld.github.io.git
-
-   cd kohld.github.io
-   ```
-
-2. **Install dependencies**
-   ```sh
-   npm install
-   ```
-3. **Start the development server**
-   ```sh
-   npm run dev
-   ```
-4. **Open your browser** and visit [http://localhost:3000](http://localhost:3000)
-
-### Code Formatting
-
-This project uses [Prettier](https://prettier.io/) for code formatting. To format all files:
-
-```sh
-npm run format
-```
-
-> **Note:** Prettier is configured to run manually. Remember to format your code before committing changes to maintain consistent code style across the project.
+Feel free to check the [issues page](https://github.com/kohld/kohld.github.io/issues). If you'd like to contribute, you can fork the repository and create a pull request, or open an issue with the tag "enhancement".
 
 ---
 
