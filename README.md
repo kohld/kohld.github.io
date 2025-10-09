@@ -2,6 +2,8 @@
 
 [![Deployment](https://github.com/kohld/kohld.github.io/actions/workflows/deploy.yml/badge.svg?branch=main)](https://github.com/kohld/kohld.github.io/actions/workflows/deploy.yml)
 
+**[Live-Website](https://kohld.github.io)**
+
 A modern, accessible portfolio website built with Next.js, featuring a professional project showcase, responsive design, and optimized user experience.
 
 ---
@@ -83,6 +85,20 @@ graph TD
     style H fill:#1E1E1E,stroke:#007AFF,color:#fff
     style F fill:#2D2D2D,stroke:#007AFF,color:#fff
 ```
+
+<details>
+<summary>Accessible Project Structure Description</summary>
+
+The project is structured as follows:
+- The `app/` directory forms the core of the Next.js application, containing:
+  - `layout.tsx`: The main layout component.
+  - `page.tsx`: The main page content, which imports all other components.
+  - `globals.css`: Global stylesheets.
+  - `components/`: A sub-directory with all the reusable React components like `header.tsx`, `footer.tsx`, `projects.tsx`, etc.
+- The `public/` directory holds all static assets like images and icons.
+- The root directory contains configuration files like `next.config.ts`, `tailwind.config.ts`, and `package.json`.
+
+</details>
 
 ---
 
