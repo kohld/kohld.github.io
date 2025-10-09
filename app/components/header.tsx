@@ -22,34 +22,50 @@ export default function Header() {
             className="hidden md:flex space-x-8"
             aria-label="Main navigation"
           >
-            <button
-              onClick={() => scrollToSection('hero')}
+            <a
+              href="#hero"
+              onClick={(e) => {
+                e.preventDefault();
+                scrollToSection('hero');
+              }}
               className="text-white/80 hover:text-[#007AFF] transition-all duration-300 font-medium"
               aria-label="Navigate to home section"
             >
               Home
-            </button>
-            <button
-              onClick={() => scrollToSection('about')}
+            </a>
+            <a
+              href="#about"
+              onClick={(e) => {
+                e.preventDefault();
+                scrollToSection('about');
+              }}
               className="text-white/80 hover:text-[#007AFF] transition-all duration-300 font-medium"
               aria-label="Navigate to about section"
             >
               About
-            </button>
-            <button
-              onClick={() => scrollToSection('projects')}
+            </a>
+            <a
+              href="#projects"
+              onClick={(e) => {
+                e.preventDefault();
+                scrollToSection('projects');
+              }}
               className="text-white/80 hover:text-[#007AFF] transition-all duration-300 font-medium"
               aria-label="Navigate to projects section"
             >
               Projects
-            </button>
-            <button
-              onClick={() => scrollToSection('contact')}
+            </a>
+            <a
+              href="#contact"
+              onClick={(e) => {
+                e.preventDefault();
+                scrollToSection('contact');
+              }}
               className="text-white/80 hover:text-[#007AFF] transition-all duration-300 font-medium"
               aria-label="Navigate to contact section"
             >
               Contact
-            </button>
+            </a>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -72,34 +88,50 @@ export default function Header() {
             aria-label="Mobile navigation"
           >
             <div className="flex flex-col space-y-4">
-              <button
-                onClick={() => scrollToSection('hero')}
+              <a
+                href="#hero"
+                onClick={(e) => {
+                  e.preventDefault();
+                  scrollToSection('hero');
+                }}
                 className="text-left text-white/80 hover:text-[#007AFF] transition-all duration-300"
                 aria-label="Navigate to home section"
               >
                 Home
-              </button>
-              <button
-                onClick={() => scrollToSection('about')}
+              </a>
+              <a
+                href="#about"
+                onClick={(e) => {
+                  e.preventDefault();
+                  scrollToSection('about');
+                }}
                 className="text-left text-white/80 hover:text-[#007AFF] transition-all duration-300"
                 aria-label="Navigate to about section"
               >
                 About
-              </button>
-              <button
-                onClick={() => scrollToSection('projects')}
+              </a>
+              <a
+                href="#projects"
+                onClick={(e) => {
+                  e.preventDefault();
+                  scrollToSection('projects');
+                }}
                 className="text-left text-white/80 hover:text-[#007AFF] transition-all duration-300"
                 aria-label="Navigate to projects section"
               >
                 Projects
-              </button>
-              <button
-                onClick={() => scrollToSection('contact')}
+              </a>
+              <a
+                href="#contact"
+                onClick={(e) => {
+                  e.preventDefault();
+                  scrollToSection('contact');
+                }}
                 className="text-left text-white/80 hover:text-[#007AFF] transition-all duration-300"
                 aria-label="Navigate to contact section"
               >
                 Contact
-              </button>
+              </a>
             </div>
           </nav>
         )}

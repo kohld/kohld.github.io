@@ -168,7 +168,7 @@ export default function Projects() {
           {visibleProjects.map((project, index) => (
             <div
               key={index}
-              className="relative bg-white/[0.03] border border-white/10 rounded-2xl p-8 backdrop-blur-sm transition-all duration-300 hover:bg-white/[0.05] hover:border-[#007AFF]/30 hover:-translate-y-2 overflow-hidden group"
+              className="relative bg-white/[0.03] border border-white/10 rounded-2xl p-8 backdrop-blur-sm transition-all duration-300 hover:bg-white/[0.05] hover:border-[#007AFF]/30 hover:-translate-y-2 focus-within:-translate-y-2 overflow-hidden group"
             >
               {/* Animated top border on hover */}
               <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-[#007AFF]/50 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-[600ms]"></div>
