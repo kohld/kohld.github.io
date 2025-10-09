@@ -5,12 +5,16 @@ import Projects from './components/projects';
 import Contact from './components/contact';
 import Footer from './components/footer';
 import SectionDivider from './components/section-divider';
+import FadeIn from './components/fade-in';
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-black text-white">
+      <a href="#main-content" className="skip-link">
+        Skip to main content
+      </a>
       <Header />
-      <main className="relative">
+      <main id="main-content" className="relative">
         {/* Background gradient for entire page */}
         <div
           className="fixed inset-0 z-0 pointer-events-none"
@@ -31,12 +35,24 @@ export default function Home() {
         {/* Content */}
         <div className="relative z-10">
           <Hero />
-          <SectionDivider />
-          <About />
-          <SectionDivider />
-          <Projects />
-          <SectionDivider />
-          <Contact />
+          <FadeIn>
+            <SectionDivider />
+          </FadeIn>
+          <FadeIn>
+            <About />
+          </FadeIn>
+          <FadeIn>
+            <SectionDivider />
+          </FadeIn>
+          <FadeIn>
+            <Projects />
+          </FadeIn>
+          <FadeIn>
+            <SectionDivider />
+          </FadeIn>
+          <FadeIn>
+            <Contact />
+          </FadeIn>
         </div>
       </main>
       <Footer />

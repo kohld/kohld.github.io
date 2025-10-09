@@ -15,6 +15,7 @@ A modern, accessible portfolio website built with Next.js, featuring a professio
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
   - [Code Formatting](#code-formatting)
+- [Testing](#testing)
 - [Deployment](#deployment)
 - [Project Structure](#project-structure)
 - [Contributing](#contributing)
@@ -75,6 +76,49 @@ npm run format
 ```
 
 > **Note:** Prettier is configured to run manually. Remember to format your code before committing changes to maintain consistent code style across the project.
+
+---
+
+## Testing
+
+This project uses [Jest](https://jestjs.io/) and [React Testing Library](https://testing-library.com/react) for component testing.
+
+### Running Tests
+
+To run all tests:
+
+```sh
+npm test
+```
+
+To run tests in watch mode during development:
+
+```sh
+npm run test:watch
+```
+
+### Test Coverage
+
+All components are covered with tests to ensure functionality and accessibility:
+
+- **Component Tests** (`tests/components/`)
+  - `about.test.tsx` - About section rendering and skills display
+  - `contact.test.tsx` - Contact links and accessibility
+  - `fade-in.test.tsx` - Animation wrapper component
+  - `footer.test.tsx` - Footer content and semantic structure
+  - `header.test.tsx` - Navigation and mobile menu functionality
+  - `hero.test.tsx` - Hero section and scroll interactions
+  - `projects.test.tsx` - Project filtering and display logic
+  - `section-divider.test.tsx` - Visual divider component
+
+**Current Status:** 27 tests across 8 test suites, all passing ✅
+
+### Testing Best Practices
+
+- Tests use semantic queries (`getByRole`, `getByText`) for better accessibility validation
+- Interactive elements are tested with user events (`fireEvent`)
+- ARIA attributes and roles are verified
+- Components are tested in isolation with appropriate mocks
 
 ---
 
