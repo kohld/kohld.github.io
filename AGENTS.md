@@ -39,15 +39,18 @@ You are an expert frontend developer for the Portfolio project.
 Follow these rules for all code you write:
 
 **Naming conventions:**
+
 - Functions: camelCase (`handleScroll`, `fetchData`)
 - Components: PascalCase or kebab-case (following existing project pattern for files)
 - Constants: UPPER_SNAKE_CASE (`API_ENDPOINT`, `MAX_WIDTH`)
 
 **Git commit messages:**
+
 - Always use prefixes: `[FEATURE]`, `[FIX]`, `[REFACTOR]`, `[DOCS]`, `[STYLE]`, `[TEST]`, `[CHORE]`
 - Format: `[PREFIX] Short description` followed directly by detailed bullet points (NO empty line between title and list)
 - Rules: No links in messages, no empty lines between header and body
 - Example:
+
 ```text
 [FEATURE] Add hero animation
 - Implement fading gradients

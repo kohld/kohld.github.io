@@ -7,7 +7,6 @@ import projectsData from '@/data/projects.json';
 const projects = projectsData as Project[];
 
 export default function Projects() {
-
   const [showAll, setShowAll] = useState(false);
   const [selectedFilter, setSelectedFilter] = useState<string>('All');
 
@@ -26,8 +25,8 @@ export default function Projects() {
       selectedFilter === 'All'
         ? projects
         : projects.filter((project) =>
-          project.technologies.includes(selectedFilter),
-        );
+            project.technologies.includes(selectedFilter),
+          );
     return [...filtered].sort((a, b) => a.title.localeCompare(b.title));
   }, [selectedFilter]);
 
@@ -62,10 +61,11 @@ export default function Projects() {
                   setSelectedFilter(tech);
                   setShowAll(false);
                 }}
-                className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${selectedFilter === tech
-                  ? 'bg-[#007AFF] text-white border-2 border-[#007AFF] shadow-lg shadow-[#007AFF]/30'
-                  : 'bg-white/5 text-gray-300 border-2 border-white/10 hover:bg-white/10 hover:border-white/20'
-                  }`}
+                className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
+                  selectedFilter === tech
+                    ? 'bg-[#007AFF] text-white border-2 border-[#007AFF] shadow-lg shadow-[#007AFF]/30'
+                    : 'bg-white/5 text-gray-300 border-2 border-white/10 hover:bg-white/10 hover:border-white/20'
+                }`}
                 aria-pressed={selectedFilter === tech}
               >
                 {tech}

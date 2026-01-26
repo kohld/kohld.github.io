@@ -11,7 +11,7 @@ on:
 
   # Runs after the GitHub Activity update completes
   workflow_run:
-    workflows: ["Update GitHub Activity"]
+    workflows: ['Update GitHub Activity']
     types:
       - completed
     branches:
