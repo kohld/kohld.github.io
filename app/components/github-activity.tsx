@@ -1,7 +1,10 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import githubData from '../../data/github-activity.json';
+import { GitHubActivityData } from '@/lib/definitions';
+import githubDataRaw from '../../data/github-activity.json';
+
+const githubData = githubDataRaw as GitHubActivityData;
 
 export default function GithubActivity() {
     const { user, featuredRepos, fetchedAt } = githubData;
@@ -35,7 +38,7 @@ export default function GithubActivity() {
                             { label: 'Repos', value: user.publicRepos },
                             { label: 'Followers', value: user.followers },
                             { label: 'Following', value: user.following },
-                            { label: 'Stars', value: featuredRepos.reduce((acc: number, repo: any) => acc + repo.stars, 0) }
+                            { label: 'Stars', value: featuredRepos.reduce((acc, repo) => acc + repo.stars, 0) }
                         ].map((stat, i) => (
                             <div key={i} className="bg-white/5 border border-white/10 rounded-xl p-4 text-center backdrop-blur-sm">
                                 <div className="text-2xl font-bold text-[#007AFF]">{stat.value}</div>
@@ -46,7 +49,7 @@ export default function GithubActivity() {
                 </div>
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                    {featuredRepos.map((repo: any, index: number) => (
+                    {featuredRepos.map((repo, index) => (
                         <a
                             key={index}
                             href={repo.url}
