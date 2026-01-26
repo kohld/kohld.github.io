@@ -1,7 +1,11 @@
 # Portfolio Website
 
-[![Deployment](https://github.com/kohld/kohld.github.io/actions/workflows/deploy.yml/badge.svg?branch=main)](https://github.com/kohld/kohld.github.io/actions/workflows/deploy.yml)
-[![Tests](https://github.com/kohld/kohld.github.io/actions/workflows/test.yml/badge.svg)](https://github.com/kohld/kohld.github.io/actions/workflows/test.yml)
+<div align="center">
+  
+  ![Deployment](https://img.shields.io/github/actions/workflow/status/kohld/kohld.github.io/deploy.yml?branch=main&style=flat-square&label=Deployment&color=93C5FD)
+  ![Tests](https://img.shields.io/github/actions/workflow/status/kohld/kohld.github.io/test.yml?branch=main&style=flat-square&label=Tests&color=86EFAC)
+
+</div>
 
 <strong><a href="https://kohld.github.io" target="_blank" rel="noopener noreferrer" aria-label="View the live portfolio website (opens in a new tab)">Live-Website</a></strong>
 
