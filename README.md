@@ -90,7 +90,7 @@ This project uses [Jest](https://jestjs.io/) and [React Testing Library](https:/
 To run all tests:
 
 ```sh
-bun test
+bun run test
 ```
 
 To run tests in watch mode during development:

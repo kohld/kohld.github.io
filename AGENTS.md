@@ -28,7 +28,7 @@ You are an expert frontend developer for the Portfolio project.
 **Dev server:** `bun run dev` (starts Next.js dev server)  
 **Build:** `bun run build` (creates production static export in `out/`)  
 **Preview:** `bun run preview` (previews production build via `bunx serve out`)  
-**Test:** `bun test` or `bun run test:watch`  
+**Test:** `bun run test` or `bun run test:watch`  
 **Format:** `bun run format`  
 **Lint:** `bun run lint`
 
