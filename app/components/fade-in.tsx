@@ -2,11 +2,7 @@
 
 import { motion, Variants } from 'framer-motion';
 import React from 'react';
-
-interface FadeInProps {
-  children: React.ReactNode;
-  className?: string;
-}
+import { FadeInProps } from '@/lib/definitions';
 
 const FadeIn: React.FC<FadeInProps> = ({ children, className }) => {
   const fadeInVariants: Variants = {
