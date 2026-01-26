@@ -9,6 +9,14 @@ on:
   push:
     branches: ['main']
 
+  # Runs after the GitHub Activity update completes
+  workflow_run:
+    workflows: ["Update GitHub Activity"]
+    types:
+      - completed
+    branches:
+      - main
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -39,6 +47,11 @@ jobs:
 
       - name: Install dependencies
         run: bun install --frozen-lockfile
+
+      - name: Fetch GitHub Activity
+        run: bun run data:fetch-github
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
 
       - name: Build with Next.js
         run: bun run build

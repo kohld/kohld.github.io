@@ -1,0 +1,51 @@
+{
+  "user": {
+    "login": "kohld",
+    "name": "Dennes Kohl",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/6048329?v=4",
+    "bio": "Software Engineer | (PHP) Backend Developer",
+    "publicRepos": 8,
+    "followers": 7,
+    "following": 5,
+    "createdAt": "2013-11-27T09:03:50Z"
+  },
+  "featuredRepos": [
+    {
+      "name": "zenith",
+      "description": "AI-powered space intelligence dashboard: Real-time monitoring of LEO satellites, deep-space probes, aurora forecasts, and global launches in one premium interface.",
+      "url": "https://github.com/kohld/zenith",
+      "stars": 0,
+      "forks": 0,
+      "language": "TypeScript",
+      "updatedAt": "2026-01-26T09:44:51Z"
+    },
+    {
+      "name": "kohld.github.io",
+      "description": "This public portfolio website, built with Next.js and styled using Tailwind CSS, showcases projects and skills. It features a streamlined local build process and leverages TypeScript, JavaScript, and CSS for a robust and modern presentation.",
+      "url": "https://github.com/kohld/kohld.github.io",
+      "stars": 0,
+      "forks": 0,
+      "language": "TypeScript",
+      "updatedAt": "2026-01-26T09:43:45Z"
+    },
+    {
+      "name": "pierpoint-broker",
+      "description": "An autonomous AI-powered stock broker agent that executes trades on GitHub Actions.",
+      "url": "https://github.com/kohld/pierpoint-broker",
+      "stars": 0,
+      "forks": 0,
+      "language": "TypeScript",
+      "updatedAt": "2026-01-26T08:07:49Z"
+    },
+    {
+      "name": "kohld",
+      "description": "This repository is kohld's public GitHub profile, serving as a concise online portfolio that highlights their technical skills and professional experience.",
+      "url": "https://github.com/kohld/kohld",
+      "stars": 0,
+      "forks": 0,
+      "language": null,
+      "updatedAt": "2026-01-26T00:39:39Z"
+    }
+  ],
+  "fetchedAt": "2026-01-26T09:57:57.594Z"
+}

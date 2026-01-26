@@ -1,6 +1,7 @@
 import Header from './components/header';
 import Hero from './components/hero';
 import About from './components/about';
+import GithubActivity from './components/github-activity';
 import Projects from './components/projects';
 import Contact from './components/contact';
 import Footer from './components/footer';
@@ -40,6 +41,12 @@ export default function Home() {
           </FadeIn>
           <FadeIn>
             <About />
+          </FadeIn>
+          <FadeIn>
+            <SectionDivider />
+          </FadeIn>
+          <FadeIn>
+            <GithubActivity />
           </FadeIn>
           <FadeIn>
             <SectionDivider />

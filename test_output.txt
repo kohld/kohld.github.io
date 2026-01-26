@@ -1,0 +1,250 @@
+bun test v1.3.6 (d530ed99)
+
+tests/components/section-divider.test.tsx:
+251 |     throw error;
+252 |   }
+253 |   if (!baseElement) {
+254 |     // default to document.body instead of documentElement to avoid output of potentially-large
+255 |     // head elements (such as JSS style blocks) in debug output
+256 |     baseElement = document.body;
+                        ^
+ReferenceError: document is not defined
+      at render (/Users/dennes_kohl/Private/kohld.github.io/node_modules/@testing-library/react/dist/pure.js:256:19)
+      at <anonymous> (/Users/dennes_kohl/Private/kohld.github.io/tests/components/section-divider.test.tsx:7:5)
+(fail) SectionDivider > renders without crashing and is hidden from accessibility tree [4.85ms]
+
+tests/components/hero.test.tsx:
+
+# Unhandled error between tests
+-------------------------------
+1 | import React from 'react';
+2 | import { render, screen, fireEvent } from '@testing-library/react';
+3 | import Hero from '@/app/components/hero';
+4 | 
+5 | // Mock scrollIntoView since it's not implemented in JSDOM
+6 | window.HTMLElement.prototype.scrollIntoView = jest.fn();
+    ^
+ReferenceError: window is not defined
+      at /Users/dennes_kohl/Private/kohld.github.io/tests/components/hero.test.tsx:6:1
+      at loadAndEvaluateModule (2:1)
+-------------------------------
+
+
+tests/components/about.test.tsx:
+251 |     throw error;
+252 |   }
+253 |   if (!baseElement) {
+254 |     // default to document.body instead of documentElement to avoid output of potentially-large
+255 |     // head elements (such as JSS style blocks) in debug output
+256 |     baseElement = document.body;
+                        ^
+ReferenceError: document is not defined
+      at render (/Users/dennes_kohl/Private/kohld.github.io/node_modules/@testing-library/react/dist/pure.js:256:19)
+      at <anonymous> (/Users/dennes_kohl/Private/kohld.github.io/tests/components/about.test.tsx:7:5)
+(fail) About Component > renders the main headings [0.31ms]
+251 |     throw error;
+252 |   }
+253 |   if (!baseElement) {
+254 |     // default to document.body instead of documentElement to avoid output of potentially-large
+255 |     // head elements (such as JSS style blocks) in debug output
+256 |     baseElement = document.body;
+                        ^
+ReferenceError: document is not defined
+      at render (/Users/dennes_kohl/Private/kohld.github.io/node_modules/@testing-library/react/dist/pure.js:256:19)
+      at <anonymous> (/Users/dennes_kohl/Private/kohld.github.io/tests/components/about.test.tsx:17:5)
+(fail) About Component > renders the skill sections [0.04ms]
+251 |     throw error;
+252 |   }
+253 |   if (!baseElement) {
+254 |     // default to document.body instead of documentElement to avoid output of potentially-large
+255 |     // head elements (such as JSS style blocks) in debug output
+256 |     baseElement = document.body;
+                        ^
+ReferenceError: document is not defined
+      at render (/Users/dennes_kohl/Private/kohld.github.io/node_modules/@testing-library/react/dist/pure.js:256:19)
+      at <anonymous> (/Users/dennes_kohl/Private/kohld.github.io/tests/components/about.test.tsx:27:5)
+(fail) About Component > renders individual skills
+
+tests/components/fade-in.test.tsx:
+251 |     throw error;
+252 |   }
+253 |   if (!baseElement) {
+254 |     // default to document.body instead of documentElement to avoid output of potentially-large
+255 |     // head elements (such as JSS style blocks) in debug output
+256 |     baseElement = document.body;
+                        ^
+ReferenceError: document is not defined
+      at render (/Users/dennes_kohl/Private/kohld.github.io/node_modules/@testing-library/react/dist/pure.js:256:19)
+      at <anonymous> (/Users/dennes_kohl/Private/kohld.github.io/tests/components/fade-in.test.tsx:19:5)
+(fail) FadeIn Component > renders children correctly [0.47ms]
+251 |     throw error;
+252 |   }
+253 |   if (!baseElement) {
+254 |     // default to document.body instead of documentElement to avoid output of potentially-large
+255 |     // head elements (such as JSS style blocks) in debug output
+256 |     baseElement = document.body;
+                        ^
+ReferenceError: document is not defined
+      at render (/Users/dennes_kohl/Private/kohld.github.io/node_modules/@testing-library/react/dist/pure.js:256:19)
+      at <anonymous> (/Users/dennes_kohl/Private/kohld.github.io/tests/components/fade-in.test.tsx:28:5)
+(fail) FadeIn Component > applies custom className when provided [0.13ms]
+251 |     throw error;
+252 |   }
+253 |   if (!baseElement) {
+254 |     // default to document.body instead of documentElement to avoid output of potentially-large
+255 |     // head elements (such as JSS style blocks) in debug output
+256 |     baseElement = document.body;
+                        ^
+ReferenceError: document is not defined
+      at render (/Users/dennes_kohl/Private/kohld.github.io/node_modules/@testing-library/react/dist/pure.js:256:19)
+      at <anonymous> (/Users/dennes_kohl/Private/kohld.github.io/tests/components/fade-in.test.tsx:38:5)
+(fail) FadeIn Component > renders without className when not provided [0.04ms]
+251 |     throw error;
+252 |   }
+253 |   if (!baseElement) {
+254 |     // default to document.body instead of documentElement to avoid output of potentially-large
+255 |     // head elements (such as JSS style blocks) in debug output
+256 |     baseElement = document.body;
+                        ^
+ReferenceError: document is not defined
+      at render (/Users/dennes_kohl/Private/kohld.github.io/node_modules/@testing-library/react/dist/pure.js:256:19)
+      at <anonymous> (/Users/dennes_kohl/Private/kohld.github.io/tests/components/fade-in.test.tsx:48:5)
+(fail) FadeIn Component > renders multiple children correctly
+
+tests/components/projects.test.tsx:
+251 |     throw error;
+252 |   }
+253 |   if (!baseElement) {
+254 |     // default to document.body instead of documentElement to avoid output of potentially-large
+255 |     // head elements (such as JSS style blocks) in debug output
+256 |     baseElement = document.body;
+                        ^
+ReferenceError: document is not defined
+      at render (/Users/dennes_kohl/Private/kohld.github.io/node_modules/@testing-library/react/dist/pure.js:256:19)
+      at <anonymous> (/Users/dennes_kohl/Private/kohld.github.io/tests/components/projects.test.tsx:7:5)
+(fail) Projects Component > renders the main heading and initial projects [0.20ms]
+251 |     throw error;
+252 |   }
+253 |   if (!baseElement) {
+254 |     // default to document.body instead of documentElement to avoid output of potentially-large
+255 |     // head elements (such as JSS style blocks) in debug output
+256 |     baseElement = document.body;
+                        ^
+ReferenceError: document is not defined
+      at render (/Users/dennes_kohl/Private/kohld.github.io/node_modules/@testing-library/react/dist/pure.js:256:19)
+      at <anonymous> (/Users/dennes_kohl/Private/kohld.github.io/tests/components/projects.test.tsx:30:5)
+(fail) Projects Component > filters projects when a technology button is clicked [0.26ms]
+251 |     throw error;
+252 |   }
+253 |   if (!baseElement) {
+254 |     // default to document.body instead of documentElement to avoid output of potentially-large
+255 |     // head elements (such as JSS style blocks) in debug output
+256 |     baseElement = document.body;
+                        ^
+ReferenceError: document is not defined
+      at render (/Users/dennes_kohl/Private/kohld.github.io/node_modules/@testing-library/react/dist/pure.js:256:19)
+      at <anonymous> (/Users/dennes_kohl/Private/kohld.github.io/tests/components/projects.test.tsx:45:5)
+(fail) Projects Component > toggles between showing all and fewer projects [0.04ms]
+
+tests/components/footer.test.tsx:
+251 |     throw error;
+252 |   }
+253 |   if (!baseElement) {
+254 |     // default to document.body instead of documentElement to avoid output of potentially-large
+255 |     // head elements (such as JSS style blocks) in debug output
+256 |     baseElement = document.body;
+                        ^
+ReferenceError: document is not defined
+      at render (/Users/dennes_kohl/Private/kohld.github.io/node_modules/@testing-library/react/dist/pure.js:256:19)
+      at <anonymous> (/Users/dennes_kohl/Private/kohld.github.io/tests/components/footer.test.tsx:7:5)
+(fail) Footer > renders the copyright notice [0.44ms]
+251 |     throw error;
+252 |   }
+253 |   if (!baseElement) {
+254 |     // default to document.body instead of documentElement to avoid output of potentially-large
+255 |     // head elements (such as JSS style blocks) in debug output
+256 |     baseElement = document.body;
+                        ^
+ReferenceError: document is not defined
+      at render (/Users/dennes_kohl/Private/kohld.github.io/node_modules/@testing-library/react/dist/pure.js:256:19)
+      at <anonymous> (/Users/dennes_kohl/Private/kohld.github.io/tests/components/footer.test.tsx:16:5)
+(fail) Footer > renders as a footer element with contentinfo role [0.34ms]
+251 |     throw error;
+252 |   }
+253 |   if (!baseElement) {
+254 |     // default to document.body instead of documentElement to avoid output of potentially-large
+255 |     // head elements (such as JSS style blocks) in debug output
+256 |     baseElement = document.body;
+                        ^
+ReferenceError: document is not defined
+      at render (/Users/dennes_kohl/Private/kohld.github.io/node_modules/@testing-library/react/dist/pure.js:256:19)
+      at <anonymous> (/Users/dennes_kohl/Private/kohld.github.io/tests/components/footer.test.tsx:23:5)
+(fail) Footer > displays the current year dynamically [0.17ms]
+251 |     throw error;
+252 |   }
+253 |   if (!baseElement) {
+254 |     // default to document.body instead of documentElement to avoid output of potentially-large
+255 |     // head elements (such as JSS style blocks) in debug output
+256 |     baseElement = document.body;
+                        ^
+ReferenceError: document is not defined
+      at render (/Users/dennes_kohl/Private/kohld.github.io/node_modules/@testing-library/react/dist/pure.js:256:19)
+      at <anonymous> (/Users/dennes_kohl/Private/kohld.github.io/tests/components/footer.test.tsx:29:5)
+(fail) Footer > has proper styling classes for backdrop and border [0.63ms]
+
+tests/components/header.test.tsx:
+
+# Unhandled error between tests
+-------------------------------
+1 | import React from 'react';
+2 | import { render, screen, fireEvent } from '@testing-library/react';
+3 | import Header from '@/app/components/header';
+4 | 
+5 | // Mock scrollIntoView since it's not implemented in JSDOM
+6 | window.HTMLElement.prototype.scrollIntoView = jest.fn();
+    ^
+ReferenceError: window is not defined
+      at /Users/dennes_kohl/Private/kohld.github.io/tests/components/header.test.tsx:6:1
+      at loadAndEvaluateModule (2:1)
+-------------------------------
+
+
+tests/components/contact.test.tsx:
+251 |     throw error;
+252 |   }
+253 |   if (!baseElement) {
+254 |     // default to document.body instead of documentElement to avoid output of potentially-large
+255 |     // head elements (such as JSS style blocks) in debug output
+256 |     baseElement = document.body;
+                        ^
+ReferenceError: document is not defined
+      at render (/Users/dennes_kohl/Private/kohld.github.io/node_modules/@testing-library/react/dist/pure.js:256:19)
+      at <anonymous> (/Users/dennes_kohl/Private/kohld.github.io/tests/components/contact.test.tsx:7:5)
+(fail) Contact Component > renders the main heading [0.23ms]
+251 |     throw error;
+252 |   }
+253 |   if (!baseElement) {
+254 |     // default to document.body instead of documentElement to avoid output of potentially-large
+255 |     // head elements (such as JSS style blocks) in debug output
+256 |     baseElement = document.body;
+                        ^
+ReferenceError: document is not defined
+      at render (/Users/dennes_kohl/Private/kohld.github.io/node_modules/@testing-library/react/dist/pure.js:256:19)
+      at <anonymous> (/Users/dennes_kohl/Private/kohld.github.io/tests/components/contact.test.tsx:14:5)
+(fail) Contact Component > renders the email link with the correct href
+251 |     throw error;
+252 |   }
+253 |   if (!baseElement) {
+254 |     // default to document.body instead of documentElement to avoid output of potentially-large
+255 |     // head elements (such as JSS style blocks) in debug output
+256 |     baseElement = document.body;
+                        ^
+ReferenceError: document is not defined
+      at render (/Users/dennes_kohl/Private/kohld.github.io/node_modules/@testing-library/react/dist/pure.js:256:19)
+      at <anonymous> (/Users/dennes_kohl/Private/kohld.github.io/tests/components/contact.test.tsx:21:5)
+(fail) Contact Component > renders the GitHub link with the correct href and target [0.15ms]
+
+ 0 pass
+ 20 fail
+ 2 errors
+Ran 20 tests across 8 files. [2.54s]
