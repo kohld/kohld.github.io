@@ -39,7 +39,7 @@ async function fetchGitHubData() {
                 url: repo.html_url,
                 stars: repo.stargazers_count,
                 forks: repo.forks_count,
-                language: repo.language,
+                language: repo.name.toLowerCase() === USERNAME.toLowerCase() ? "Profile" : (repo.language || "Content"),
                 updatedAt: repo.updated_at,
             }));
 
