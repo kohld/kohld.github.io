@@ -45,6 +45,7 @@ A modern, accessible portfolio website built with Next.js, featuring a professio
 - [React](https://react.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [Bun](https://bun.sh/)
 
 ## Getting Started
 
@@ -60,11 +61,11 @@ To run this project locally:
 
 2. **Install dependencies**
    ```sh
-   npm install
+   bun install
    ```
 3. **Start the development server**
    ```sh
-   npm run dev
+   bun run dev
    ```
 4. **Open your browser** and visit [http://localhost:3000](http://localhost:3000)
 
@@ -73,7 +74,7 @@ To run this project locally:
 This project uses [Prettier](https://prettier.io/) for code formatting. To format all files:
 
 ```sh
-npm run format
+bun run format
 ```
 
 > **Note:** Prettier is configured to run manually. Remember to format your code before committing changes to maintain consistent code style across the project.
@@ -89,13 +90,13 @@ This project uses [Jest](https://jestjs.io/) and [React Testing Library](https:/
 To run all tests:
 
 ```sh
-npm test
+bun test
 ```
 
 To run tests in watch mode during development:
 
 ```sh
-npm run test:watch
+bun run test:watch
 ```
 
 ### Test Coverage
@@ -129,9 +130,10 @@ This project is automatically deployed to GitHub Pages whenever a commit is push
 
 The deployment process is handled by a GitHub Actions workflow defined in `.github/workflows/deploy.yml`. The workflow performs the following steps:
 
-1.  **Build:** It builds the Next.js application into a static site.
-2.  **Export:** It exports the static files to the `out` directory.
-3.  **Deploy:** It deploys the contents of the `out` directory to the `gh-pages` branch, which is then served as the live site.
+1.  **Environment:** It sets up the [Bun](https://bun.sh/) runtime.
+2.  **Build:** It builds the Next.js application into a static site.
+3.  **Export:** It exports the static files to the `out` directory.
+4.  **Deploy:** It deploys the contents of the `out` directory to the `gh-pages` branch, which is then served as the live site.
 
 ---
 
