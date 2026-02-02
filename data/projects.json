@@ -1,31 +1,69 @@
 [
   {
+    "title": "Kulturveranstaltungen des Bundes in Berlin GmbH (KBB) - Berlinale & European Film Market",
+    "technologies": [
+      "PHP",
+      "Symfony",
+      "Doctrine",
+      "Twig",
+      "REST API",
+      "Elasticsearch",
+      "FirstSpirit CMS"
+    ],
+    "description": "Development of a backend system for a high-traffic international film festival platform, implementing APIs for content management, accreditation, and ticketing services. This involved integrating multilingual database structures for program and media management, as well as interfaces to third-party providers for user data and additional services. Built a custom admin and shop system supporting several thousand visitors.",
+    "link": "https://www.berlinale.de/de/home.html"
+  },
+  {
     "title": "WhoFinance GmbH",
-    "technologies": ["Symfony", "Doctrine", "Twig", "Smarty"],
+    "technologies": [
+      "PHP",
+      "Symfony",
+      "Doctrine",
+      "Twig",
+      "Smarty"
+    ],
     "description": "Involved in platform development for statistical applications, creating systems for data handling and analysis. Also, focused on process development for statistics, optimizing workflows for data collection, analysis, and dissemination.",
     "link": "https://www.whofinance.de/"
   },
   {
     "title": "freenet TV (MEDIA BROADCAST GmbH)",
-    "technologies": ["Symfony", "Doctrine", "Twig"],
+    "technologies": [
+      "PHP",
+      "Symfony",
+      "Doctrine",
+      "Twig"
+    ],
     "description": "A platform was created for the product launch, alongside the successful integration of mobilcom debitel. This involved establishing the necessary infrastructure for introducing the product to the market and ensuring seamless operation with mobilcom debitel's systems.",
     "link": "https://www.freenet.tv/"
   },
   {
     "title": "Deutsche Bahn Globe",
-    "technologies": ["Symfony", "Doctrine", "Sonata CMS", "Twig"],
+    "technologies": [
+      "PHP",
+      "Symfony",
+      "Doctrine",
+      "Sonata CMS",
+      "Twig"
+    ],
     "description": "Development of an internal tool for managing international employees assigned to various subcontractors. This involved creating a system to oversee staff working abroad and their allocation to different sub-companies.",
     "link": ""
   },
   {
     "title": "Contorion",
-    "technologies": ["Symfony", "Pimcore", "Doctrine", "RabbitMQ"],
+    "technologies": [
+      "PHP",
+      "Symfony",
+      "Pimcore",
+      "Doctrine",
+      "RabbitMQ"
+    ],
     "description": "Contribution to warehouse management and calculation processes.",
     "link": "https://www.contorion.de/"
   },
   {
     "title": "Deutsche Bahn Connect GmbH",
     "technologies": [
+      "PHP",
       "Symfony",
       "Pimcore",
       "Doctrine",
@@ -39,31 +77,60 @@
   },
   {
     "title": "Fleurop AG",
-    "technologies": ["Symfony", "Pimcore", "Doctrine", "RabbitMQ"],
+    "technologies": [
+      "PHP",
+      "Symfony",
+      "Pimcore",
+      "Doctrine",
+      "Elasticsearch",
+      "RabbitMQ"
+    ],
     "description": "The development of both B2B and warehouse management platforms focuses on creating highly scalable, secure, and integrated systems that streamline business processes, improve operational efficiency, and enhance overall supply chain visibility for enterprises.",
     "link": "https://www.fleurop.de/"
   },
   {
     "title": "NFON AG",
-    "technologies": ["Yii 2", "REST API"],
+    "technologies": [
+      "PHP",
+      "Yii 2",
+      "REST API"
+    ],
     "description": "Provided a REST API, complete with data models, and introduced new quality control measures. This involved setting up the technical interface and data structures, alongside implementing improved quality assurance for the system.",
     "link": "https://www.nfon.com/"
   },
   {
     "title": "ZDFtivi",
-    "technologies": ["Symfony", "Doctrine", "REST API"],
+    "technologies": [
+      "PHP",
+      "Symfony",
+      "Doctrine",
+      "REST API"
+    ],
     "description": "Contributed to the critical ASAP delivery of a REST API and data structure for the relaunch of all ZDF products, enabling their deployment on a new platform.",
     "link": "https://www.zdf.de/kinder"
   },
   {
     "title": "BGHM",
-    "technologies": ["Symfony", "Sonata CMS", "Doctrine", "Twig"],
+    "technologies": [
+      "PHP",
+      "Symfony",
+      "Sonata CMS",
+      "Doctrine",
+      "Twig"
+    ],
     "description": "Contribution to the creation of a custom CMS system.",
     "link": "https://www.bghm.de/"
   },
   {
     "title": "Krombacher Brauerei GmbH & Co. KG",
-    "technologies": ["Symfony", "Pimcore", "Doctrine", "Twig", "REST API"],
+    "technologies": [
+      "PHP",
+      "Symfony",
+      "Pimcore",
+      "Doctrine",
+      "Twig",
+      "REST API"
+    ],
     "description": "Contribution to the creation of a PIM/DAM system.",
     "link": "https://www.krombacher.de/"
   }
