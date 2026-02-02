@@ -1,6 +1,6 @@
 'use client';
 
-import { motion, Variants } from 'framer-motion';
+import { motion, Variants } from 'motion/react';
 import React from 'react';
 import { FadeInProps } from '@/lib/definitions';
 

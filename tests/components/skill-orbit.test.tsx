@@ -4,7 +4,7 @@ import '@testing-library/jest-dom';
 import SkillOrbit from '@/app/components/skill-orbit';
 
 // Mock framer-motion to avoid animation-related issues in tests
-jest.mock('framer-motion', () => ({
+jest.mock('motion/react', () => ({
   motion: {
     div: ({ children, className, style, animate, transition }: any) => (
       <div

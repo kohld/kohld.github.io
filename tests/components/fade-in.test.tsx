@@ -3,7 +3,7 @@ import { render, screen } from '@testing-library/react';
 import FadeIn from '@/app/components/fade-in';
 
 // Mock framer-motion to avoid animation complexity in tests
-jest.mock('framer-motion', () => ({
+jest.mock('motion/react', () => ({
   motion: {
     div: ({ children, className, ...props }: any) => (
       <div className={className} data-testid="fade-in-wrapper" {...props}>
