@@ -1,7 +1,9 @@
 'use client';
 
+// React and useMemo are already imported in the previous line if I merged correctly, but let's just make it clean.
 import React, { useMemo } from 'react';
-import { motion } from 'motion/react';
+
+
 
 interface Skill {
   name: string;
@@ -62,38 +64,32 @@ const SkillNode = ({
   const isExploring = level === 3;
 
   return (
-    <motion.div
+    <div
       className="absolute flex items-center justify-center pointer-events-auto cursor-default"
-      animate={{
-        rotate: [angle, angle + 360],
-      }}
-      transition={{
-        duration: speed,
-        repeat: Infinity,
-        ease: 'linear',
-      }}
-      style={{
-        width: 0,
-        height: 0,
-        top: '50%',
-        left: '50%',
-      }}
+      style={
+        {
+          width: 0,
+          height: 0,
+          top: '50%',
+          left: '50%',
+          '--start-angle': `${angle}deg`,
+          animation: `orbit ${speed}s linear infinite`,
+        } as React.CSSProperties
+      }
     >
       <div
         style={{
           transform: `translate(${radius}px, -50%)`,
         }}
       >
-        <motion.div
+        <div
           className="relative group"
-          animate={{
-            rotate: [-angle, -(angle + 360)],
-          }}
-          transition={{
-            duration: speed,
-            repeat: Infinity,
-            ease: 'linear',
-          }}
+          style={
+            {
+              '--start-angle': `${angle}deg`,
+              animation: `counter-orbit ${speed}s linear infinite`,
+            } as React.CSSProperties
+          }
         >
           {/* Glowing Aura */}
           <div
@@ -110,9 +106,9 @@ const SkillNode = ({
           >
             {name}
           </div>
-        </motion.div>
+        </div>
       </div>
-    </motion.div>
+    </div>
   );
 };
 

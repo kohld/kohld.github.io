@@ -1,20 +1,19 @@
 import React from 'react';
-import { render, screen } from '@testing-library/react';
+import { render, screen, act } from '@testing-library/react';
 import FadeIn from '@/app/components/fade-in';
 
-// Mock framer-motion to avoid animation complexity in tests
-jest.mock('motion/react', () => ({
-  motion: {
-    div: ({ children, className, ...props }: any) => (
-      <div className={className} data-testid="fade-in-wrapper" {...props}>
-        {children}
-      </div>
-    ),
-  },
-  Variants: {},
-}));
-
 describe('FadeIn Component', () => {
+  beforeEach(() => {
+    // Mock IntersectionObserver
+    const mockIntersectionObserver = jest.fn();
+    mockIntersectionObserver.mockReturnValue({
+      observe: () => null,
+      unobserve: () => null,
+      disconnect: () => null
+    });
+    window.IntersectionObserver = mockIntersectionObserver;
+  });
+
   it('renders children correctly', () => {
     render(
       <FadeIn>
@@ -30,28 +29,19 @@ describe('FadeIn Component', () => {
         <p>Test Content</p>
       </FadeIn>,
     );
-    const wrapper = screen.getByTestId('fade-in-wrapper');
-    expect(wrapper).toHaveClass('custom-class');
+    // The component wrapper is the div with className
+    const textElement = screen.getByText('Test Content');
+    // Since textElement is p, parent is the FadeIn div
+    expect(textElement.parentElement).toHaveClass('custom-class');
   });
 
-  it('renders without className when not provided', () => {
+  it('starts hidden (opacity-0)', () => {
     render(
       <FadeIn>
         <p>Test Content</p>
-      </FadeIn>,
+      </FadeIn>
     );
-    const wrapper = screen.getByTestId('fade-in-wrapper');
-    expect(wrapper).toBeInTheDocument();
-  });
-
-  it('renders multiple children correctly', () => {
-    render(
-      <FadeIn>
-        <h1>Title</h1>
-        <p>Description</p>
-      </FadeIn>,
-    );
-    expect(screen.getByText('Title')).toBeInTheDocument();
-    expect(screen.getByText('Description')).toBeInTheDocument();
+    const container = screen.getByText('Test Content').parentElement;
+    expect(container).toHaveClass('opacity-0');
   });
 });

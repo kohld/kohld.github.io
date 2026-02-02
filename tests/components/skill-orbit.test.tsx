@@ -1,23 +1,8 @@
-import React from 'react';
 import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import SkillOrbit from '@/app/components/skill-orbit';
 
-// Mock framer-motion to avoid animation-related issues in tests
-jest.mock('motion/react', () => ({
-  motion: {
-    div: ({ children, className, style, animate, transition }: any) => (
-      <div
-        className={className}
-        style={style}
-        data-animate={JSON.stringify(animate)}
-        data-transition={JSON.stringify(transition)}
-      >
-        {children}
-      </div>
-    ),
-  },
-}));
+
 
 describe('SkillOrbit Component', () => {
   it('renders the central core node with Tech Stack text', () => {

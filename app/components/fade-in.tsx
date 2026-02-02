@@ -1,35 +1,37 @@
 'use client';
 
-import { motion, Variants } from 'motion/react';
-import React from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { FadeInProps } from '@/lib/definitions';
 
 const FadeIn: React.FC<FadeInProps> = ({ children, className }) => {
-  const fadeInVariants: Variants = {
-    hidden: {
-      opacity: 0,
-      y: 20,
-    },
-    visible: {
-      opacity: 1,
-      y: 0,
-      transition: {
-        duration: 0.6,
-        ease: 'easeOut',
+  const ref = useRef<HTMLDivElement>(null);
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+          observer.disconnect();
+        }
       },
-    },
-  };
+      { threshold: 0.1 }
+    );
+
+    if (ref.current) {
+      observer.observe(ref.current);
+    }
+
+    return () => observer.disconnect();
+  }, []);
 
   return (
-    <motion.div
-      className={className}
-      variants={fadeInVariants}
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true }}
+    <div
+      ref={ref}
+      className={`${className} ${isVisible ? 'animate-fade-in' : 'opacity-0 translate-y-5'}`}
     >
       {children}
-    </motion.div>
+    </div>
   );
 };
 
