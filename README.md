@@ -4,6 +4,7 @@
 
   ![Deployment](https://img.shields.io/github/actions/workflow/status/kohld/kohld.github.io/deploy.yml?branch=main&style=flat-square&label=Deployment&color=93C5FD)
   ![Tests](https://img.shields.io/github/actions/workflow/status/kohld/kohld.github.io/test.yml?branch=main&style=flat-square&label=Tests&color=86EFAC)
+  ![GitHub Activity](https://img.shields.io/github/actions/workflow/status/kohld/kohld.github.io/update-github-activity.yml?branch=main&style=flat-square&label=GitHub%20Activity&color=FDE047)
 
 </div>
 
