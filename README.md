@@ -24,8 +24,8 @@ A modern, accessible portfolio website built with Next.js, featuring a professio
 - [Deployment](#deployment)
 - [Project Structure](#project-structure)
 - [Contributing](#contributing)
-- [License](#license)
 - [AI Agent Configuration](#ai-agent-configuration)
+- [License](#license)
 
 ---
 
@@ -211,12 +211,6 @@ Feel free to check the [issues page](https://github.com/kohld/kohld.github.io/is
 
 ---
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
 ## AI Agent Configuration
 
 This project includes AI agent configuration files to ensure consistent behavior across different AI models and assistants:
@@ -242,6 +236,21 @@ The project follows the Karpathy Guidelines for AI-assisted development:
 - **Surgical Changes:** Touch only what you must, clean up only your own mess
 - **Goal-Driven Execution:** Define success criteria, loop until verified
 
+### Integration in Development Process
+
+AI agents are integrated as development assistants that support human contributors:
+
+1. **Code Generation** - AI agents generate code based on project guidelines
+2. **Code Review** - AI agents review code for consistency and best practices
+3. **Documentation** - AI agents help maintain and update documentation
+4. **Testing** - AI agents assist in writing and maintaining tests
+
 ### Additional Resources
 
 For more information about Bun APIs, read the documentation in `node_modules/bun-types/docs/**.md`.
+
+---
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
