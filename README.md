@@ -1,7 +1,7 @@
 # Portfolio Website
 
 <div align="center">
-  
+
   ![Deployment](https://img.shields.io/github/actions/workflow/status/kohld/kohld.github.io/deploy.yml?branch=main&style=flat-square&label=Deployment&color=93C5FD)
   ![Tests](https://img.shields.io/github/actions/workflow/status/kohld/kohld.github.io/test.yml?branch=main&style=flat-square&label=Tests&color=86EFAC)
 
@@ -25,6 +25,7 @@ A modern, accessible portfolio website built with Next.js, featuring a professio
 - [Project Structure](#project-structure)
 - [Contributing](#contributing)
 - [License](#license)
+- [AI Agent Configuration](#ai-agent-configuration)
 
 ---
 
@@ -213,3 +214,34 @@ Feel free to check the [issues page](https://github.com/kohld/kohld.github.io/is
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## AI Agent Configuration
+
+This project includes AI agent configuration files to ensure consistent behavior across different AI models and assistants:
+
+### Agent Configuration Files
+
+- **AGENTS.md** - General agent configuration for portfolio development
+- **CLAUDE.md** - Claude-specific agent configuration  
+- **GEMINI.md** - Gemini-specific agent configuration
+
+### Development Philosophy
+
+The project follows the Karpathy Guidelines for AI-assisted development:
+
+[.agents/skills/karpathy-guidelines/SKILL.md](.agents/skills/karpathy-guidelines/SKILL.md)
+- Meta-principles for avoiding common LLM coding mistakes
+- Think before coding, simplicity first, surgical changes, goal-driven execution
+
+### Key Principles
+
+- **Think Before Coding:** State assumptions explicitly, present multiple interpretations, push back when warranted
+- **Simplicity First:** Minimum code that solves the problem, no speculative features
+- **Surgical Changes:** Touch only what you must, clean up only your own mess
+- **Goal-Driven Execution:** Define success criteria, loop until verified
+
+### Additional Resources
+
+For more information about Bun APIs, read the documentation in `node_modules/bun-types/docs/**.md`.
