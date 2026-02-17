@@ -20,32 +20,32 @@
       "updatedAt": "2026-02-07T19:12:03Z"
     },
     {
-      "name": "kohld.github.io",
-      "description": "This public portfolio website, built with Next.js and styled using Tailwind CSS, showcases projects and skills. It features a streamlined local build process and leverages TypeScript, JavaScript, and CSS for a robust and modern presentation.",
-      "url": "https://github.com/kohld/kohld.github.io",
-      "stars": 0,
-      "forks": 0,
-      "language": "TypeScript",
-      "updatedAt": "2026-02-16T12:03:50Z"
-    },
-    {
       "name": "zenith",
       "description": "AI-powered space intelligence dashboard: Real-time monitoring of LEO satellites, deep-space probes, aurora forecasts, and global launches in one premium interface.",
       "url": "https://github.com/kohld/zenith",
       "stars": 0,
       "forks": 0,
       "language": "TypeScript",
-      "updatedAt": "2026-02-16T11:45:59Z"
+      "updatedAt": "2026-02-17T00:36:27Z"
     },
     {
-      "name": "levelsio-php-architecture",
-      "description": "Single-file PHP job board app inspired by Pieter Levels' RemoteOK architecture. No framework, no dependencies — just one index.php, SQLite, and jQuery. An annotated study of \"duct tape programming\" that made $65k/month.",
-      "url": "https://github.com/kohld/levelsio-php-architecture",
+      "name": "pierpoint-broker",
+      "description": "An autonomous AI-powered stock broker agent that executes trades on GitHub Actions.",
+      "url": "https://github.com/kohld/pierpoint-broker",
       "stars": 0,
       "forks": 0,
-      "language": "PHP",
-      "updatedAt": "2026-02-16T09:01:05Z"
+      "language": "TypeScript",
+      "updatedAt": "2026-02-16T15:00:46Z"
+    },
+    {
+      "name": "kohld.github.io",
+      "description": "This public portfolio website, built with Next.js and styled using Tailwind CSS, showcases projects and skills. It features a streamlined local build process and leverages TypeScript, JavaScript, and CSS for a robust and modern presentation.",
+      "url": "https://github.com/kohld/kohld.github.io",
+      "stars": 0,
+      "forks": 0,
+      "language": "TypeScript",
+      "updatedAt": "2026-02-16T12:44:17Z"
     }
   ],
-  "fetchedAt": "2026-02-16T12:05:15.999Z"
+  "fetchedAt": "2026-02-17T00:43:04.769Z"
 }
