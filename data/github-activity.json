@@ -26,7 +26,7 @@
       "stars": 0,
       "forks": 0,
       "language": "TypeScript",
-      "updatedAt": "2026-02-17T00:36:27Z"
+      "updatedAt": "2026-02-18T00:36:55Z"
     },
     {
       "name": "pierpoint-broker",
@@ -35,17 +35,17 @@
       "stars": 0,
       "forks": 0,
       "language": "TypeScript",
-      "updatedAt": "2026-02-16T15:00:46Z"
+      "updatedAt": "2026-02-17T15:03:25Z"
     },
     {
-      "name": "kohld.github.io",
-      "description": "This public portfolio website, built with Next.js and styled using Tailwind CSS, showcases projects and skills. It features a streamlined local build process and leverages TypeScript, JavaScript, and CSS for a robust and modern presentation.",
-      "url": "https://github.com/kohld/kohld.github.io",
+      "name": "kohld",
+      "description": "This repository is kohld's public GitHub profile, serving as a concise online portfolio that highlights their technical skills and professional experience.",
+      "url": "https://github.com/kohld/kohld",
       "stars": 0,
       "forks": 0,
-      "language": "TypeScript",
-      "updatedAt": "2026-02-16T12:44:17Z"
+      "language": "Profile",
+      "updatedAt": "2026-02-17T00:43:46Z"
     }
   ],
-  "fetchedAt": "2026-02-17T00:43:04.769Z"
+  "fetchedAt": "2026-02-18T00:43:41.323Z"
 }
