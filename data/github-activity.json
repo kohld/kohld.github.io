@@ -5,7 +5,7 @@
     "avatarUrl": "https://avatars.githubusercontent.com/u/6048329?v=4",
     "bio": "Software Engineer | (PHP) Backend Developer",
     "publicRepos": 9,
-    "followers": 7,
+    "followers": 8,
     "following": 5,
     "createdAt": "2013-11-27T09:03:50Z"
   },
@@ -26,16 +26,7 @@
       "stars": 0,
       "forks": 0,
       "language": "TypeScript",
-      "updatedAt": "2026-02-21T00:34:38Z"
-    },
-    {
-      "name": "pierpoint-broker",
-      "description": "An autonomous AI-powered stock broker agent that executes trades on GitHub Actions.",
-      "url": "https://github.com/kohld/pierpoint-broker",
-      "stars": 0,
-      "forks": 0,
-      "language": "TypeScript",
-      "updatedAt": "2026-02-20T15:01:09Z"
+      "updatedAt": "2026-02-22T00:36:47Z"
     },
     {
       "name": "kohld",
@@ -44,8 +35,17 @@
       "stars": 0,
       "forks": 0,
       "language": "Profile",
-      "updatedAt": "2026-02-20T00:41:51Z"
+      "updatedAt": "2026-02-21T00:41:31Z"
+    },
+    {
+      "name": "kohld.github.io",
+      "description": "This public portfolio website, built with Next.js and styled using Tailwind CSS, showcases projects and skills. It features a streamlined local build process and leverages TypeScript, JavaScript, and CSS for a robust and modern presentation.",
+      "url": "https://github.com/kohld/kohld.github.io",
+      "stars": 0,
+      "forks": 0,
+      "language": "TypeScript",
+      "updatedAt": "2026-02-21T00:40:47Z"
     }
   ],
-  "fetchedAt": "2026-02-21T00:40:42.927Z"
+  "fetchedAt": "2026-02-22T00:43:41.689Z"
 }
