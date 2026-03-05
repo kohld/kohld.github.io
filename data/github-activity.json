@@ -11,6 +11,15 @@
   },
   "featuredRepos": [
     {
+      "name": "zenith",
+      "description": "AI-powered space intelligence dashboard: Real-time monitoring of LEO satellites, deep-space probes, aurora forecasts, and global launches in one premium interface.",
+      "url": "https://github.com/kohld/zenith",
+      "stars": 1,
+      "forks": 0,
+      "language": "TypeScript",
+      "updatedAt": "2026-03-05T00:36:03Z"
+    },
+    {
       "name": "tradingview-scripts",
       "description": "This repository contains a collection of Pine Script indicators and strategies for TradingView, focusing on technical analysis and value investing principles.",
       "url": "https://github.com/kohld/tradingview-scripts",
@@ -20,22 +29,13 @@
       "updatedAt": "2026-02-07T19:12:03Z"
     },
     {
-      "name": "zenith",
-      "description": "AI-powered space intelligence dashboard: Real-time monitoring of LEO satellites, deep-space probes, aurora forecasts, and global launches in one premium interface.",
-      "url": "https://github.com/kohld/zenith",
-      "stars": 0,
-      "forks": 0,
-      "language": "TypeScript",
-      "updatedAt": "2026-03-04T00:34:58Z"
-    },
-    {
       "name": "pierpoint-broker",
       "description": "An autonomous AI-powered stock broker agent that executes trades on GitHub Actions.",
       "url": "https://github.com/kohld/pierpoint-broker",
       "stars": 0,
       "forks": 0,
       "language": "TypeScript",
-      "updatedAt": "2026-03-03T15:08:18Z"
+      "updatedAt": "2026-03-04T15:01:29Z"
     },
     {
       "name": "kohld",
@@ -44,8 +44,8 @@
       "stars": 0,
       "forks": 0,
       "language": "Profile",
-      "updatedAt": "2026-03-03T00:44:29Z"
+      "updatedAt": "2026-03-04T00:42:14Z"
     }
   ],
-  "fetchedAt": "2026-03-04T00:41:18.281Z"
+  "fetchedAt": "2026-03-05T00:42:49.484Z"
 }
