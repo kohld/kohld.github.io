@@ -4,7 +4,7 @@
     "name": "Dennes Kohl",
     "avatarUrl": "https://avatars.githubusercontent.com/u/6048329?v=4",
     "bio": "Software Engineer | (PHP) Backend Developer",
-    "publicRepos": 9,
+    "publicRepos": 10,
     "followers": 7,
     "following": 6,
     "createdAt": "2013-11-27T09:03:50Z"
@@ -17,7 +17,7 @@
       "stars": 2,
       "forks": 0,
       "language": "TypeScript",
-      "updatedAt": "2026-03-17T00:34:56Z"
+      "updatedAt": "2026-03-18T00:37:43Z"
     },
     {
       "name": "tradingview-scripts",
@@ -29,23 +29,23 @@
       "updatedAt": "2026-02-07T19:12:03Z"
     },
     {
+      "name": "crest",
+      "description": "An autonomous AI agent that lives in this repository — thinking, building, and evolving itself daily.",
+      "url": "https://github.com/kohld/crest",
+      "stars": 0,
+      "forks": 0,
+      "language": "TypeScript",
+      "updatedAt": "2026-03-17T22:18:43Z"
+    },
+    {
       "name": "pierpoint-broker",
       "description": "An autonomous AI-powered stock broker agent that executes trades on GitHub Actions.",
       "url": "https://github.com/kohld/pierpoint-broker",
       "stars": 0,
       "forks": 0,
       "language": "TypeScript",
-      "updatedAt": "2026-03-16T15:07:30Z"
-    },
-    {
-      "name": "kohld",
-      "description": "This repository is kohld's public GitHub profile, serving as a concise online portfolio that highlights their technical skills and professional experience.",
-      "url": "https://github.com/kohld/kohld",
-      "stars": 0,
-      "forks": 0,
-      "language": "Profile",
-      "updatedAt": "2026-03-16T00:49:43Z"
+      "updatedAt": "2026-03-17T15:08:57Z"
     }
   ],
-  "fetchedAt": "2026-03-17T00:41:18.746Z"
+  "fetchedAt": "2026-03-18T00:44:37.940Z"
 }
