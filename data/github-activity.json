@@ -17,7 +17,7 @@
       "stars": 2,
       "forks": 0,
       "language": "TypeScript",
-      "updatedAt": "2026-03-21T00:34:23Z"
+      "updatedAt": "2026-03-22T00:38:19Z"
     },
     {
       "name": "tradingview-scripts",
@@ -35,17 +35,17 @@
       "stars": 0,
       "forks": 0,
       "language": "TypeScript",
-      "updatedAt": "2026-03-20T22:12:34Z"
+      "updatedAt": "2026-03-21T22:09:44Z"
     },
     {
-      "name": "pierpoint-broker",
-      "description": "An autonomous AI-powered stock broker agent that executes trades on GitHub Actions.",
-      "url": "https://github.com/kohld/pierpoint-broker",
+      "name": "kohld",
+      "description": "This repository is kohld's public GitHub profile, serving as a concise online portfolio that highlights their technical skills and professional experience.",
+      "url": "https://github.com/kohld/kohld",
       "stars": 0,
       "forks": 0,
-      "language": "TypeScript",
-      "updatedAt": "2026-03-20T15:02:00Z"
+      "language": "Profile",
+      "updatedAt": "2026-03-21T00:41:26Z"
     }
   ],
-  "fetchedAt": "2026-03-21T00:40:26.013Z"
+  "fetchedAt": "2026-03-22T00:45:57.232Z"
 }
