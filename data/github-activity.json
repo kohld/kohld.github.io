@@ -14,10 +14,10 @@
       "name": "zenith",
       "description": "AI-powered space intelligence dashboard: Real-time monitoring of LEO satellites, deep-space probes, aurora forecasts, and global launches in one premium interface.",
       "url": "https://github.com/kohld/zenith",
-      "stars": 2,
+      "stars": 3,
       "forks": 0,
       "language": "TypeScript",
-      "updatedAt": "2026-03-25T00:37:26Z"
+      "updatedAt": "2026-03-26T00:39:56Z"
     },
     {
       "name": "tradingview-scripts",
@@ -35,17 +35,17 @@
       "stars": 0,
       "forks": 0,
       "language": "TypeScript",
-      "updatedAt": "2026-03-24T22:34:37Z"
+      "updatedAt": "2026-03-25T22:18:47Z"
     },
     {
-      "name": "cart-api",
-      "description": null,
-      "url": "https://github.com/kohld/cart-api",
+      "name": "pierpoint-broker",
+      "description": "An autonomous AI-powered stock broker agent that executes trades on GitHub Actions.",
+      "url": "https://github.com/kohld/pierpoint-broker",
       "stars": 0,
       "forks": 0,
-      "language": "PHP",
-      "updatedAt": "2026-03-24T19:26:09Z"
+      "language": "TypeScript",
+      "updatedAt": "2026-03-25T15:11:21Z"
     }
   ],
-  "fetchedAt": "2026-03-25T00:44:19.139Z"
+  "fetchedAt": "2026-03-26T00:47:06.332Z"
 }
