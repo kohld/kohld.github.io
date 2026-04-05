@@ -17,7 +17,7 @@
       "stars": 3,
       "forks": 0,
       "language": "TypeScript",
-      "updatedAt": "2026-04-04T00:37:47Z"
+      "updatedAt": "2026-04-05T00:42:56Z"
     },
     {
       "name": "tradingview-scripts",
@@ -29,23 +29,23 @@
       "updatedAt": "2026-02-07T19:12:03Z"
     },
     {
-      "name": "crest",
-      "description": "An autonomous AI agent that lives in this repository — thinking, building, and evolving itself daily.",
-      "url": "https://github.com/kohld/crest",
+      "name": "kohld",
+      "description": "This repository is kohld's public GitHub profile, serving as a concise online portfolio that highlights their technical skills and professional experience.",
+      "url": "https://github.com/kohld/kohld",
       "stars": 0,
       "forks": 0,
-      "language": "TypeScript",
-      "updatedAt": "2026-04-03T22:17:01Z"
+      "language": "Profile",
+      "updatedAt": "2026-04-04T14:00:01Z"
     },
     {
-      "name": "pierpoint-broker",
-      "description": "An autonomous AI-powered stock broker agent that executes trades on GitHub Actions.",
-      "url": "https://github.com/kohld/pierpoint-broker",
+      "name": "kohld.github.io",
+      "description": "This public portfolio website, built with Next.js and styled using Tailwind CSS, showcases projects and skills. It features a streamlined local build process and leverages TypeScript, JavaScript, and CSS for a robust and modern presentation.",
+      "url": "https://github.com/kohld/kohld.github.io",
       "stars": 0,
       "forks": 0,
       "language": "TypeScript",
-      "updatedAt": "2026-04-03T16:13:06Z"
+      "updatedAt": "2026-04-04T00:43:56Z"
     }
   ],
-  "fetchedAt": "2026-04-04T00:43:51.879Z"
+  "fetchedAt": "2026-04-05T00:50:39.940Z"
 }
