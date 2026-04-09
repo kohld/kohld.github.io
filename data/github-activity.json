@@ -17,7 +17,7 @@
       "stars": 3,
       "forks": 0,
       "language": "TypeScript",
-      "updatedAt": "2026-04-08T00:41:47Z"
+      "updatedAt": "2026-04-09T00:34:54Z"
     },
     {
       "name": "tradingview-scripts",
@@ -29,13 +29,13 @@
       "updatedAt": "2026-02-07T19:12:03Z"
     },
     {
-      "name": "pierpoint-broker",
-      "description": "An autonomous AI-powered stock broker agent that executes trades on GitHub Actions.",
-      "url": "https://github.com/kohld/pierpoint-broker",
+      "name": "crest",
+      "description": "An autonomous AI agent that lives in this repository — thinking, building, and evolving itself daily.",
+      "url": "https://github.com/kohld/crest",
       "stars": 0,
       "forks": 0,
       "language": "TypeScript",
-      "updatedAt": "2026-04-07T15:10:23Z"
+      "updatedAt": "2026-04-08T22:20:43Z"
     },
     {
       "name": "kohld",
@@ -44,8 +44,8 @@
       "stars": 0,
       "forks": 0,
       "language": "Profile",
-      "updatedAt": "2026-04-07T00:49:41Z"
+      "updatedAt": "2026-04-08T00:49:44Z"
     }
   ],
-  "fetchedAt": "2026-04-08T00:48:52.401Z"
+  "fetchedAt": "2026-04-09T00:40:51.129Z"
 }
