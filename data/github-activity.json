@@ -17,7 +17,7 @@
       "stars": 3,
       "forks": 0,
       "language": "TypeScript",
-      "updatedAt": "2026-04-14T00:46:13Z"
+      "updatedAt": "2026-04-15T00:45:59Z"
     },
     {
       "name": "tradingview-scripts",
@@ -35,17 +35,17 @@
       "stars": 0,
       "forks": 0,
       "language": "TypeScript",
-      "updatedAt": "2026-04-13T04:27:45Z"
+      "updatedAt": "2026-04-14T09:39:27Z"
     },
     {
-      "name": "kohld",
-      "description": "This repository is kohld's public GitHub profile, serving as a concise online portfolio that highlights their technical skills and professional experience.",
-      "url": "https://github.com/kohld/kohld",
+      "name": "kohld.github.io",
+      "description": "This public portfolio website, built with Next.js and styled using Tailwind CSS, showcases projects and skills. It features a streamlined local build process and leverages TypeScript, JavaScript, and CSS for a robust and modern presentation.",
+      "url": "https://github.com/kohld/kohld.github.io",
       "stars": 0,
       "forks": 0,
-      "language": "Profile",
-      "updatedAt": "2026-04-13T00:54:24Z"
+      "language": "TypeScript",
+      "updatedAt": "2026-04-14T09:31:15Z"
     }
   ],
-  "fetchedAt": "2026-04-14T00:53:04.506Z"
+  "fetchedAt": "2026-04-15T00:53:37.850Z"
 }
