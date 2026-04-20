@@ -14,9 +14,9 @@ export default function About() {
             companies and digital products. My focus is on modern technologies,
             robust backend architectures, and user-centric frontend solutions. I
             thrive in collaborative environments and have contributed to complex
-            projects for clients such as Deutsche Bahn, NFON, ZDF, and
-            more—delivering reliable systems, seamless integrations, and
-            innovative digital platforms.
+            projects for clients such as Deutsche Bahn, NFON, ZDF, and others.
+            I focus on reliable systems, seamless integrations, and innovative
+            digital platforms.
           </p>
         </div>
 
