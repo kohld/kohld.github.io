@@ -17,7 +17,7 @@
       "stars": 3,
       "forks": 0,
       "language": "TypeScript",
-      "updatedAt": "2026-04-22T00:43:35Z"
+      "updatedAt": "2026-04-23T00:47:39Z"
     },
     {
       "name": "tradingview-scripts",
@@ -29,23 +29,23 @@
       "updatedAt": "2026-02-07T19:12:03Z"
     },
     {
-      "name": "phare",
-      "description": "A minimalist PHP static site generator for GitHub Pages.",
-      "url": "https://github.com/kohld/phare",
+      "name": "kohld",
+      "description": "This repository is kohld's public GitHub profile, serving as a concise online portfolio that highlights their technical skills and professional experience.",
+      "url": "https://github.com/kohld/kohld",
       "stars": 0,
       "forks": 0,
-      "language": "PHP",
-      "updatedAt": "2026-04-21T23:45:42Z"
+      "language": "Profile",
+      "updatedAt": "2026-04-22T00:51:34Z"
     },
     {
-      "name": "ev",
-      "description": "ElectricVolution",
-      "url": "https://github.com/kohld/ev",
+      "name": "kohld.github.io",
+      "description": "This public portfolio website, built with Next.js and styled using Tailwind CSS, showcases projects and skills. It features a streamlined local build process and leverages TypeScript, JavaScript, and CSS for a robust and modern presentation.",
+      "url": "https://github.com/kohld/kohld.github.io",
       "stars": 0,
       "forks": 0,
       "language": "TypeScript",
-      "updatedAt": "2026-04-21T10:52:03Z"
+      "updatedAt": "2026-04-22T00:50:24Z"
     }
   ],
-  "fetchedAt": "2026-04-22T00:50:18.763Z"
+  "fetchedAt": "2026-04-23T00:54:47.866Z"
 }
