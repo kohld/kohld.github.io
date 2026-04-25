@@ -4,7 +4,7 @@
     "name": "Dennes Kohl",
     "avatarUrl": "https://avatars.githubusercontent.com/u/6048329?v=4",
     "bio": "Software Engineer | (PHP) Backend Developer",
-    "publicRepos": 11,
+    "publicRepos": 10,
     "followers": 7,
     "following": 6,
     "createdAt": "2013-11-27T09:03:50Z"
@@ -17,7 +17,7 @@
       "stars": 3,
       "forks": 0,
       "language": "TypeScript",
-      "updatedAt": "2026-04-24T00:47:44Z"
+      "updatedAt": "2026-04-25T00:43:24Z"
     },
     {
       "name": "tradingview-scripts",
@@ -29,23 +29,23 @@
       "updatedAt": "2026-02-07T19:12:03Z"
     },
     {
+      "name": "pierpoint-broker",
+      "description": "An autonomous AI-powered stock broker agent that executes trades on GitHub Actions.",
+      "url": "https://github.com/kohld/pierpoint-broker",
+      "stars": 0,
+      "forks": 0,
+      "language": "TypeScript",
+      "updatedAt": "2026-04-24T18:35:58Z"
+    },
+    {
       "name": "ev",
       "description": "ElectricVolution - Personal blog and vehicle portfolio for the Škoda Elroq 85 Sportline.",
       "url": "https://github.com/kohld/ev",
       "stars": 0,
       "forks": 0,
       "language": "TypeScript",
-      "updatedAt": "2026-04-23T14:18:42Z"
-    },
-    {
-      "name": "phare",
-      "description": "A minimalist PHP static site generator for GitHub Pages.",
-      "url": "https://github.com/kohld/phare",
-      "stars": 0,
-      "forks": 0,
-      "language": "PHP",
-      "updatedAt": "2026-04-23T06:28:03Z"
+      "updatedAt": "2026-04-24T05:22:53Z"
     }
   ],
-  "fetchedAt": "2026-04-24T00:55:40.913Z"
+  "fetchedAt": "2026-04-25T00:50:31.827Z"
 }
