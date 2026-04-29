@@ -17,7 +17,7 @@
       "stars": 3,
       "forks": 0,
       "language": "TypeScript",
-      "updatedAt": "2026-04-28T00:51:13Z"
+      "updatedAt": "2026-04-29T00:52:09Z"
     },
     {
       "name": "tradingview-scripts",
@@ -35,17 +35,17 @@
       "stars": 0,
       "forks": 0,
       "language": "TypeScript",
-      "updatedAt": "2026-04-27T15:28:27Z"
+      "updatedAt": "2026-04-28T15:54:30Z"
     },
     {
-      "name": "ev",
-      "description": "ElectricVolution - Personal blog and vehicle portfolio for the Škoda Elroq 85 Sportline.",
-      "url": "https://github.com/kohld/ev",
+      "name": "kohld",
+      "description": "This repository is kohld's public GitHub profile, serving as a concise online portfolio that highlights their technical skills and professional experience.",
+      "url": "https://github.com/kohld/kohld",
       "stars": 0,
       "forks": 0,
-      "language": "TypeScript",
-      "updatedAt": "2026-04-27T09:29:51Z"
+      "language": "Profile",
+      "updatedAt": "2026-04-28T00:59:17Z"
     }
   ],
-  "fetchedAt": "2026-04-28T00:58:17.195Z"
+  "fetchedAt": "2026-04-29T00:59:36.524Z"
 }
