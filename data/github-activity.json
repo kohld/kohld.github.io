@@ -17,7 +17,7 @@
       "stars": 3,
       "forks": 0,
       "language": "TypeScript",
-      "updatedAt": "2026-05-12T00:49:48Z"
+      "updatedAt": "2026-05-13T00:54:47Z"
     },
     {
       "name": "kohld.github.io",
@@ -26,7 +26,7 @@
       "stars": 1,
       "forks": 0,
       "language": "TypeScript",
-      "updatedAt": "2026-05-11T01:03:48Z"
+      "updatedAt": "2026-05-12T00:58:10Z"
     },
     {
       "name": "tradingview-scripts",
@@ -38,14 +38,14 @@
       "updatedAt": "2026-02-07T19:12:03Z"
     },
     {
-      "name": "phare",
-      "description": "A minimalist PHP static site generator for GitHub Pages.",
-      "url": "https://github.com/kohld/phare",
+      "name": "kohld",
+      "description": "This repository is kohld's public GitHub profile, serving as a concise online portfolio that highlights their technical skills and professional experience.",
+      "url": "https://github.com/kohld/kohld",
       "stars": 0,
       "forks": 0,
-      "language": "PHP",
-      "updatedAt": "2026-05-11T05:35:55Z"
+      "language": "Profile",
+      "updatedAt": "2026-05-12T00:59:05Z"
     }
   ],
-  "fetchedAt": "2026-05-12T00:58:06.384Z"
+  "fetchedAt": "2026-05-13T01:02:22.271Z"
 }
