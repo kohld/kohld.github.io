@@ -5,7 +5,7 @@
     "avatarUrl": "https://avatars.githubusercontent.com/u/6048329?v=4",
     "bio": "Software Engineer | (PHP) Backend Developer",
     "publicRepos": 10,
-    "followers": 7,
+    "followers": 6,
     "following": 6,
     "createdAt": "2013-11-27T09:03:50Z"
   },
@@ -17,7 +17,7 @@
       "stars": 3,
       "forks": 0,
       "language": "TypeScript",
-      "updatedAt": "2026-05-14T00:56:35Z"
+      "updatedAt": "2026-05-15T00:53:47Z"
     },
     {
       "name": "kohld.github.io",
@@ -26,7 +26,7 @@
       "stars": 1,
       "forks": 0,
       "language": "TypeScript",
-      "updatedAt": "2026-05-13T01:02:26Z"
+      "updatedAt": "2026-05-14T01:03:50Z"
     },
     {
       "name": "tradingview-scripts",
@@ -38,14 +38,14 @@
       "updatedAt": "2026-02-07T19:12:03Z"
     },
     {
-      "name": "ev",
-      "description": "ElectricVolution - Personal blog and vehicle portfolio for the Škoda Elroq 85 Sportline.",
-      "url": "https://github.com/kohld/ev",
+      "name": "kohld",
+      "description": "This repository is kohld's public GitHub profile, serving as a concise online portfolio that highlights their technical skills and professional experience.",
+      "url": "https://github.com/kohld/kohld",
       "stars": 0,
       "forks": 0,
-      "language": "TypeScript",
-      "updatedAt": "2026-05-13T08:14:04Z"
+      "language": "Profile",
+      "updatedAt": "2026-05-14T01:05:00Z"
     }
   ],
-  "fetchedAt": "2026-05-14T01:03:45.484Z"
+  "fetchedAt": "2026-05-15T01:01:30.149Z"
 }
