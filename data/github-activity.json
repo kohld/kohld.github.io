@@ -17,7 +17,16 @@
       "stars": 3,
       "forks": 0,
       "language": "TypeScript",
-      "updatedAt": "2026-05-19T00:58:00Z"
+      "updatedAt": "2026-05-20T00:59:51Z"
+    },
+    {
+      "name": "tradingview-scripts",
+      "description": "This repository contains a collection of Pine Script indicators and strategies for TradingView, focusing on technical analysis and value investing principles.",
+      "url": "https://github.com/kohld/tradingview-scripts",
+      "stars": 2,
+      "forks": 0,
+      "language": "Content",
+      "updatedAt": "2026-05-19T03:01:07Z"
     },
     {
       "name": "kohld.github.io",
@@ -26,26 +35,17 @@
       "stars": 1,
       "forks": 0,
       "language": "TypeScript",
-      "updatedAt": "2026-05-18T01:06:03Z"
+      "updatedAt": "2026-05-19T01:06:19Z"
     },
     {
-      "name": "tradingview-scripts",
-      "description": "This repository contains a collection of Pine Script indicators and strategies for TradingView, focusing on technical analysis and value investing principles.",
-      "url": "https://github.com/kohld/tradingview-scripts",
-      "stars": 1,
-      "forks": 0,
-      "language": "Content",
-      "updatedAt": "2026-02-07T19:12:03Z"
-    },
-    {
-      "name": "phare",
-      "description": "A minimalist PHP static site generator for GitHub Pages.",
-      "url": "https://github.com/kohld/phare",
+      "name": "kohld",
+      "description": "This repository is kohld's public GitHub profile, serving as a concise online portfolio that highlights their technical skills and professional experience.",
+      "url": "https://github.com/kohld/kohld",
       "stars": 0,
       "forks": 0,
-      "language": "PHP",
-      "updatedAt": "2026-05-18T08:29:16Z"
+      "language": "Profile",
+      "updatedAt": "2026-05-19T01:07:05Z"
     }
   ],
-  "fetchedAt": "2026-05-19T01:06:14.753Z"
+  "fetchedAt": "2026-05-20T01:07:51.136Z"
 }
