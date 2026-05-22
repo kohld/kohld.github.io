@@ -4,7 +4,7 @@
     "name": "Dennes Kohl",
     "avatarUrl": "https://avatars.githubusercontent.com/u/6048329?v=4",
     "bio": "Software Engineer | (PHP) Backend Developer",
-    "publicRepos": 10,
+    "publicRepos": 9,
     "followers": 6,
     "following": 6,
     "createdAt": "2013-11-27T09:03:50Z"
@@ -17,7 +17,7 @@
       "stars": 3,
       "forks": 0,
       "language": "TypeScript",
-      "updatedAt": "2026-05-21T00:59:47Z"
+      "updatedAt": "2026-05-22T00:58:02Z"
     },
     {
       "name": "tradingview-scripts",
@@ -35,7 +35,7 @@
       "stars": 1,
       "forks": 0,
       "language": "TypeScript",
-      "updatedAt": "2026-05-20T01:07:55Z"
+      "updatedAt": "2026-05-21T01:08:37Z"
     },
     {
       "name": "kohld",
@@ -44,8 +44,8 @@
       "stars": 0,
       "forks": 0,
       "language": "Profile",
-      "updatedAt": "2026-05-20T01:09:00Z"
+      "updatedAt": "2026-05-21T01:09:31Z"
     }
   ],
-  "fetchedAt": "2026-05-21T01:08:33.153Z"
+  "fetchedAt": "2026-05-22T01:06:12.768Z"
 }
