@@ -17,7 +17,7 @@
       "stars": 3,
       "forks": 0,
       "language": "TypeScript",
-      "updatedAt": "2026-11-01T04:57:22Z"
+      "updatedAt": "2026-11-02T04:58:22Z"
     },
     {
       "name": "tradingview-scripts",
@@ -35,7 +35,7 @@
       "stars": 1,
       "forks": 0,
       "language": "TypeScript",
-      "updatedAt": "2026-10-31T04:58:09Z"
+      "updatedAt": "2026-11-01T05:28:06Z"
     },
     {
       "name": "pierpoint-broker",
@@ -47,5 +47,5 @@
       "updatedAt": "2026-10-26T20:08:02Z"
     }
   ],
-  "fetchedAt": "2026-11-01T05:28:01.803Z"
+  "fetchedAt": "2026-11-02T05:26:39.070Z"
 }
